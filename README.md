@@ -21,7 +21,7 @@ This repository provides the data and figures presented in the paper and noteboo
 * Python 3.10 or higher
 * Dependencies: virtualenv, wget, unzip, git
 * Python Packages: [`requirements.txt`](./requirements.txt)
-* Storage: 200GB available disk space for traces and processed data sets
+* Storage: 350GB available disk space for traces and processed data sets
 * Memory: Minimum 120GB RAM for running analysis notebooks and scripts
 
 ### Steps
