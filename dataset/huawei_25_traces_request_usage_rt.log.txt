@@ -1,0 +1,2 @@
+Total rows: 947970744
+Final combined data shape: (947970744, 4)

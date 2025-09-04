@@ -1,0 +1,316 @@
+[?2004h[01;32mubuntu@server1[00m:[01;34m~/demystifying-serverless-costs-artifact[00m$ l[Ksh as[Kll_in_one_script.sh 
+[?2004lCreating virtual environment and installing dependencies...
+created virtual environment CPython3.12.3.final.0-64 in 222ms
+  creator CPython3Posix(dest=/home/ubuntu/demystifying-serverless-costs-artifact/venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/home/ubuntu/.local/share/virtualenv)
+    added seed packages: MarkupSafe==3.0.2, PyYAML==6.0.2, Send2Trash==1.8.3, anyio==4.10.0, argon2_cffi==25.1.0, argon2_cffi_bindings==25.1.0, arrow==1.3.0, asttokens==3.0.0, async_lru==2.0.5, attrs==25.3.0, babel==2.17.0, beautifulsoup4==4.13.5, bleach==6.2.0, certifi==2025.8.3, cffi==1.17.1, charset_normalizer==3.4.3, comm==0.2.3, contourpy==1.3.3, cycler==0.12.1, debugpy==1.8.16, decorator==5.2.1, defusedxml==0.7.1, executing==2.2.1, fastjsonschema==2.21.2, fonttools==4.59.2, fqdn==1.5.1, h11==0.16.0, httpcore==1.0.9, httpx==0.28.1, idna==3.10, ipykernel==6.30.1, ipython==9.5.0, ipython_pygments_lexers==1.1.1, ipywidgets==8.1.7, isoduration==20.11.0, jedi==0.19.2, jinja2==3.1.6, json5==0.12.1, jsonpointer==3.0.0, jsonschema==4.25.1, jsonschema_specifications==2025.4.1, jupyter==1.1.1, jupyter_client==8.6.3, jupyter_console==6.6.3, jupyter_core==5.8.1, jupyter_events==0.12.0, jupyter_lsp==2.3.0, jupyter_server==2.17.0, jupyter_server_terminals==0.5.3, jupyterlab==4.4.6, jupyterlab_pygments==0.3.0, jupyterlab_server==2.27.3, jupyterlab_widgets==3.0.15, kiwisolver==1.4.9, lark==1.2.2, matplotlib==3.10.6, matplotlib_inline==0.1.7, mistune==3.1.4, nbclient==0.10.2, nbconvert==7.16.6, nbformat==5.10.4, nest_asyncio==1.6.0, notebook==7.4.5, notebook_shim==0.2.4, numpy==2.3.2, packaging==25.0, pandas==2.3.2, pandocfilters==1.5.1, parso==0.8.5, pexpect==4.9.0, pillow==11.3.0, pip==24.0, platformdirs==4.4.0, prometheus_client==0.22.1, prompt_toolkit==3.0.52, psutil==7.0.0, ptyprocess==0.7.0, pure_eval==0.2.3, pycparser==2.22, pygments==2.19.2, pyparsing==3.2.3, python_dateutil==2.9.0.post0, python_json_logger==3.3.0, pytz==2025.2, pyzmq==27.0.2, referencing==0.36.2, requests==2.32.5, rfc3339_validator==0.1.4, rfc3986_validator==0.1.1, rfc3987_syntax==1.1.0, rpds_py==0.27.1, scipy==1.16.1, seaborn==0.13.2, setuptools==80.9.0, six==1.17.0, sniffio==1.3.1, soupsieve==2.8, stack_data==0.6.3, terminado==0.18.1, tinycss2==1.4.0, tornado==6.5.2, traitlets==5.14.3, types_python_dateutil==2.9.0.20250822, typing_extensions==4.15.0, tzdata==2025.2, uri_template==1.3.0, urllib3==2.5.0, wcwidth==0.2.13, webcolors==24.11.1, webencodings==0.5.1, websocket_client==1.8.0, widgetsnbextension==4.0.14
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Requirement already satisfied: anyio==4.10.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 1)) (4.10.0)
+Requirement already satisfied: argon2-cffi==25.1.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 2)) (25.1.0)
+Requirement already satisfied: argon2-cffi-bindings==25.1.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 3)) (25.1.0)
+Requirement already satisfied: arrow==1.3.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 4)) (1.3.0)
+Requirement already satisfied: asttokens==3.0.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 5)) (3.0.0)
+Requirement already satisfied: async-lru==2.0.5 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 6)) (2.0.5)
+Requirement already satisfied: attrs==25.3.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 7)) (25.3.0)
+Requirement already satisfied: babel==2.17.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 8)) (2.17.0)
+Requirement already satisfied: beautifulsoup4==4.13.5 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 9)) (4.13.5)
+Requirement already satisfied: bleach==6.2.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 10)) (6.2.0)
+Requirement already satisfied: certifi==2025.8.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 11)) (2025.8.3)
+Requirement already satisfied: cffi==1.17.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 12)) (1.17.1)
+Requirement already satisfied: charset-normalizer==3.4.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 13)) (3.4.3)
+Requirement already satisfied: comm==0.2.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 14)) (0.2.3)
+Requirement already satisfied: contourpy==1.3.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 15)) (1.3.3)
+Requirement already satisfied: cycler==0.12.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 16)) (0.12.1)
+Requirement already satisfied: debugpy==1.8.16 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 17)) (1.8.16)
+Requirement already satisfied: decorator==5.2.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 18)) (5.2.1)
+Requirement already satisfied: defusedxml==0.7.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 19)) (0.7.1)
+Requirement already satisfied: executing==2.2.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 20)) (2.2.1)
+Requirement already satisfied: fastjsonschema==2.21.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 21)) (2.21.2)
+Requirement already satisfied: fonttools==4.59.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 22)) (4.59.2)
+Requirement already satisfied: fqdn==1.5.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 23)) (1.5.1)
+Requirement already satisfied: h11==0.16.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 24)) (0.16.0)
+Requirement already satisfied: httpcore==1.0.9 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 25)) (1.0.9)
+Requirement already satisfied: httpx==0.28.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 26)) (0.28.1)
+Requirement already satisfied: idna==3.10 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 27)) (3.10)
+Requirement already satisfied: ipykernel==6.30.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 28)) (6.30.1)
+Requirement already satisfied: ipython==9.5.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 29)) (9.5.0)
+Requirement already satisfied: ipython_pygments_lexers==1.1.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 30)) (1.1.1)
+Requirement already satisfied: ipywidgets==8.1.7 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 31)) (8.1.7)
+Requirement already satisfied: isoduration==20.11.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 32)) (20.11.0)
+Requirement already satisfied: jedi==0.19.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 33)) (0.19.2)
+Requirement already satisfied: Jinja2==3.1.6 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 34)) (3.1.6)
+Requirement already satisfied: json5==0.12.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 35)) (0.12.1)
+Requirement already satisfied: jsonpointer==3.0.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 36)) (3.0.0)
+Requirement already satisfied: jsonschema==4.25.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 37)) (4.25.1)
+Requirement already satisfied: jsonschema-specifications==2025.4.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 38)) (2025.4.1)
+Requirement already satisfied: jupyter==1.1.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 39)) (1.1.1)
+Requirement already satisfied: jupyter-console==6.6.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 40)) (6.6.3)
+Requirement already satisfied: jupyter-events==0.12.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 41)) (0.12.0)
+Requirement already satisfied: jupyter-lsp==2.3.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 42)) (2.3.0)
+Requirement already satisfied: jupyter_client==8.6.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 43)) (8.6.3)
+Requirement already satisfied: jupyter_core==5.8.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 44)) (5.8.1)
+Requirement already satisfied: jupyter_server==2.17.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 45)) (2.17.0)
+Requirement already satisfied: jupyter_server_terminals==0.5.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 46)) (0.5.3)
+Requirement already satisfied: jupyterlab==4.4.6 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 47)) (4.4.6)
+Requirement already satisfied: jupyterlab_pygments==0.3.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 48)) (0.3.0)
+Requirement already satisfied: jupyterlab_server==2.27.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 49)) (2.27.3)
+Requirement already satisfied: jupyterlab_widgets==3.0.15 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 50)) (3.0.15)
+Requirement already satisfied: kiwisolver==1.4.9 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 51)) (1.4.9)
+Requirement already satisfied: lark==1.2.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 52)) (1.2.2)
+Requirement already satisfied: MarkupSafe==3.0.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 53)) (3.0.2)
+Requirement already satisfied: matplotlib==3.10.6 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 54)) (3.10.6)
+Requirement already satisfied: matplotlib-inline==0.1.7 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 55)) (0.1.7)
+Requirement already satisfied: mistune==3.1.4 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 56)) (3.1.4)
+Requirement already satisfied: nbclient==0.10.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 57)) (0.10.2)
+Requirement already satisfied: nbconvert==7.16.6 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 58)) (7.16.6)
+Requirement already satisfied: nbformat==5.10.4 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 59)) (5.10.4)
+Requirement already satisfied: nest-asyncio==1.6.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 60)) (1.6.0)
+Requirement already satisfied: notebook==7.4.5 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 61)) (7.4.5)
+Requirement already satisfied: notebook_shim==0.2.4 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 62)) (0.2.4)
+Requirement already satisfied: numpy==2.3.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 63)) (2.3.2)
+Requirement already satisfied: packaging==25.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 64)) (25.0)
+Requirement already satisfied: pandas==2.3.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 65)) (2.3.2)
+Requirement already satisfied: pandocfilters==1.5.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 66)) (1.5.1)
+Requirement already satisfied: parso==0.8.5 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 67)) (0.8.5)
+Requirement already satisfied: pexpect==4.9.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 68)) (4.9.0)
+Requirement already satisfied: pillow==11.3.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 69)) (11.3.0)
+Requirement already satisfied: platformdirs==4.4.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 70)) (4.4.0)
+Requirement already satisfied: prometheus_client==0.22.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 71)) (0.22.1)
+Requirement already satisfied: prompt_toolkit==3.0.52 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 72)) (3.0.52)
+Requirement already satisfied: psutil==7.0.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 73)) (7.0.0)
+Requirement already satisfied: ptyprocess==0.7.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 74)) (0.7.0)
+Requirement already satisfied: pure_eval==0.2.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 75)) (0.2.3)
+Requirement already satisfied: pycparser==2.22 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 76)) (2.22)
+Requirement already satisfied: Pygments==2.19.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 77)) (2.19.2)
+Requirement already satisfied: pyparsing==3.2.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 78)) (3.2.3)
+Requirement already satisfied: python-dateutil==2.9.0.post0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 79)) (2.9.0.post0)
+Requirement already satisfied: python-json-logger==3.3.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 80)) (3.3.0)
+Requirement already satisfied: pytz==2025.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 81)) (2025.2)
+Requirement already satisfied: PyYAML==6.0.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 82)) (6.0.2)
+Requirement already satisfied: pyzmq==27.0.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 83)) (27.0.2)
+Requirement already satisfied: referencing==0.36.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 84)) (0.36.2)
+Requirement already satisfied: requests==2.32.5 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 85)) (2.32.5)
+Requirement already satisfied: rfc3339-validator==0.1.4 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 86)) (0.1.4)
+Requirement already satisfied: rfc3986-validator==0.1.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 87)) (0.1.1)
+Requirement already satisfied: rfc3987-syntax==1.1.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 88)) (1.1.0)
+Requirement already satisfied: rpds-py==0.27.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 89)) (0.27.1)
+Requirement already satisfied: scipy==1.16.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 90)) (1.16.1)
+Requirement already satisfied: seaborn==0.13.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 91)) (0.13.2)
+Requirement already satisfied: Send2Trash==1.8.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 92)) (1.8.3)
+Requirement already satisfied: setuptools==80.9.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 93)) (80.9.0)
+Requirement already satisfied: six==1.17.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 94)) (1.17.0)
+Requirement already satisfied: sniffio==1.3.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 95)) (1.3.1)
+Requirement already satisfied: soupsieve==2.8 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 96)) (2.8)
+Requirement already satisfied: stack-data==0.6.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 97)) (0.6.3)
+Requirement already satisfied: terminado==0.18.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 98)) (0.18.1)
+Requirement already satisfied: tinycss2==1.4.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 99)) (1.4.0)
+Requirement already satisfied: tornado==6.5.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 100)) (6.5.2)
+Requirement already satisfied: traitlets==5.14.3 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 101)) (5.14.3)
+Requirement already satisfied: types-python-dateutil==2.9.0.20250822 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 102)) (2.9.0.20250822)
+Requirement already satisfied: typing_extensions==4.15.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 103)) (4.15.0)
+Requirement already satisfied: tzdata==2025.2 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 104)) (2025.2)
+Requirement already satisfied: uri-template==1.3.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 105)) (1.3.0)
+Requirement already satisfied: urllib3==2.5.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 106)) (2.5.0)
+Requirement already satisfied: wcwidth==0.2.13 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 107)) (0.2.13)
+Requirement already satisfied: webcolors==24.11.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 108)) (24.11.1)
+Requirement already satisfied: webencodings==0.5.1 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 109)) (0.5.1)
+Requirement already satisfied: websocket-client==1.8.0 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 110)) (1.8.0)
+Requirement already satisfied: widgetsnbextension==4.0.14 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 111)) (4.0.14)
+[NbConvertApp] Converting notebook billing/Serverless_vs_Iaas_CaaS.ipynb to script
+[NbConvertApp] Writing 1313 bytes to billing/Serverless_vs_Iaas_CaaS.py
+[NbConvertApp] Converting notebook billing/Resource_Prices.ipynb to script
+[NbConvertApp] Writing 6208 bytes to billing/Resource_Prices.py
+[NbConvertApp] Converting notebook billing/Billable_Resources.ipynb to script
+[NbConvertApp] Writing 18224 bytes to billing/Billable_Resources.py
+[NbConvertApp] Converting notebook billing/Utilization_Rates.ipynb to script
+[NbConvertApp] Writing 3514 bytes to billing/Utilization_Rates.py
+[NbConvertApp] Converting notebook billing/Billables_Diff.ipynb to script
+[NbConvertApp] Writing 5893 bytes to billing/Billables_Diff.py
+[NbConvertApp] Converting notebook billing/Invocation_Fees_and_Billing_Granularities.ipynb to script
+[NbConvertApp] Writing 12444 bytes to billing/Invocation_Fees_and_Billing_Granularities.py
+[NbConvertApp] Converting notebook serving-architecture/Concurrency_Models.ipynb to script
+[NbConvertApp] Writing 8103 bytes to serving-architecture/Concurrency_Models.py
+[NbConvertApp] Converting notebook serving-architecture/Serving_Architecture.ipynb to script
+[NbConvertApp] Writing 4612 bytes to serving-architecture/Serving_Architecture.py
+[NbConvertApp] Converting notebook serving-architecture/Keep_Alive.ipynb to script
+[NbConvertApp] Writing 2985 bytes to serving-architecture/Keep_Alive.py
+[NbConvertApp] Converting notebook os-scheduling/Overallocation_AWS.ipynb to script
+[NbConvertApp] Writing 7620 bytes to os-scheduling/Overallocation_AWS.py
+[NbConvertApp] Converting notebook os-scheduling/Overallocation_GCP.ipynb to script
+[NbConvertApp] Writing 9717 bytes to os-scheduling/Overallocation_GCP.py
+[NbConvertApp] Converting notebook os-scheduling/Request_CPU_Time.ipynb to script
+[NbConvertApp] Writing 959 bytes to os-scheduling/Request_CPU_Time.py
+[NbConvertApp] Converting notebook os-scheduling/Bandwidth_Control.ipynb to script
+[NbConvertApp] Writing 3077 bytes to os-scheduling/Bandwidth_Control.py
+[NbConvertApp] Converting notebook os-scheduling/Scheduler_Profiling_AWS.ipynb to script
+[NbConvertApp] Writing 9600 bytes to os-scheduling/Scheduler_Profiling_AWS.py
+[NbConvertApp] Converting notebook os-scheduling/Scheduler_Profiling_GCP.ipynb to script
+[NbConvertApp] Writing 9614 bytes to os-scheduling/Scheduler_Profiling_GCP.py
+[NbConvertApp] Converting notebook os-scheduling/Scheduler_Profiling_IBM.ipynb to script
+[NbConvertApp] Writing 8825 bytes to os-scheduling/Scheduler_Profiling_IBM.py
+[NbConvertApp] Converting notebook os-scheduling/Scheduler_Profiling_CFS_vs_EEVDF.ipynb to script
+[NbConvertApp] Writing 8449 bytes to os-scheduling/Scheduler_Profiling_CFS_vs_EEVDF.py
+================================================================================
+Cost Comparison: Serverless vs IaaS/CaaS
+--------------------------------------------------------------------------------
+AWS Lambda price per second:  2.30339693359375e-05
+AWS EC2 price per second:  9.47530864197531e-06
+AWS Fargate price per second:  1.1003055555555554e-05
+AWS EC2 is 41.136238846997045% the price of AWS Lambda
+AWS Fargate is 47.76882088832442% the price of AWS Lambda
+================================================================================
+Resource Prices
+--------------------------------------------------------------------------------
+Figure saved to billing/figures/resource_prices.pdf
+================================================================================
+Inflation of Billable Resources
+--------------------------------------------------------------------------------
+trace shape: (558735833, 9)
+Processing Actual Usage...
+Processing Huawei...
+Processing Proportional CPU Allocation (AWS)...
+Processing Wall Time Rounding (GCP)...
+Processing Time and Usage Rounding (Azure Consumption)...
+Processing CPU Time Only (Cloudflare)...
+Processing CPU data...
+  Processing Actual Usage...
+  Processing Huawei (Fixed Combo)...
+  Processing AWS (Proportional)...
+  Processing GCP (Time Rnd)...
+  Processing Azure (Time and Usg Rnd)...
+  Processing Cloudflare (CPU Time)...
+Processing Memory data...
+  Processing Actual Usage...
+  Processing Huawei (Fixed Combo)...
+  Processing AWS (Proportional)...
+  Processing GCP (Time Rnd)...
+  Processing Azure (Time and Usg Rnd)...
+  Processing Cloudflare (CPU Time)...
+Creating legend...
+Saving figure...
+Figure saved to figures/billables_cdf_current_billing.pdf
+Compared to actual usage, billable vCPU time and billable memory exceed actual usage by the following factors:
+Huawei (Fixed Combo):
+  vCPUs: 2.145263296495705
+  Memory: 2.6088776939483993
+
+AWS (Proportional):
+  vCPUs: 2.491895006337562
+  Memory: 2.7159686829558014
+
+GCP (Time Rnd):
+  vCPUs: 3.6259408698146585
+  Memory: 4.350769451586825
+
+Azure (Time and Usg Rnd):
+  vCPUs: 3.445964353693007
+  Memory: 1.571093104636354
+
+Cloudflare (CPU Time):
+  vCPUs: 1.0098841505130247
+  Memory: 0.0
+
+================================================================================
+Utilization Rates
+--------------------------------------------------------------------------------
+Figure saved to billing/figures/utilization_rates.pdf
+p65.6 CPU utilization rate is  0.49950999999999995
+More than 65% of requests use less than 50% of the allocated CPU.
+p76 memory utilization rate is  0.499313359375
+Around 76% of requests use less than 50% of the allocated memory.
+The CPU and memory utilization rates show a Pearson correlation of 0.552.
+The CPU and memory utilization rates show a Spearman correlation of 0.565.
+================================================================================
+Billables Diff
+--------------------------------------------------------------------------------
+Loading request traces...
+Loading cold start traces...
+Request traces: (947970744, 4)
+Cold start traces: (11913857, 14)
+Figure saved to figures/billable_resource_diffs.pdf
+p42.1 Billable CPU Diffs in vCPU-seconds: 0.0
+p42.1 Billable Memory Diffs in GB-seconds: 0.0
+p42.2 Billable CPU Diffs in vCPU-seconds: 8.699999999999973e-06
+p42.2 Billable Memory Diffs in GB-seconds: 3.7500000000000035e-06
+The results show that 42.1% of cold starts produce a zero or negative difference.
+================================================================================
+Invocation Fees and Billing Granularities
+--------------------------------------------------------------------------------
+On AWS Lambda, a fixed invocation fee of 2.0000000000000002e-07 is equivalent to 96.0ms of billable wall-clock time for a function with the default 128MB memory configuration.
+Number of requests with execution times of at least 1ms: 527054654
+Number of requests with execution times of at least 1ms: 527054654
+/home/ubuntu/demystifying-serverless-costs-artifact/billing/Invocation_Fees_and_Billing_Granularities.py:374: UserWarning: This figure was using a layout engine that is incompatible with subplots_adjust and/or tight_layout; not calling subplots_adjust.
+  fig.subplots_adjust(bottom=0.12)
+Figure saved to figures/equivalent_wall_time_and_rounding_up.pdf
+Average rounded-up wall time with the 100ms billing granularity: 77.118ms
+Average rounded-up wall time with the 1ms granularity and 100ms minimum cutoff: 61.350ms
+Average rounded-up billable memory with the 128MB granularity: 0.02669GB-seconds
+Average execution duration reported in the trace: 58.19ms
+Average billable memory amounts reported in the trace: 0.02746200304839938GB-seconds
+================================================================================
+Cost Implications of the Concurrency Model
+--------------------------------------------------------------------------------
+Figure saved to figures/concurrency_models.pdf
+The average execution time of the function deployed on GCP rises up to 9.64640362217309x
+GCP (RPS 15) average duration after around 90s:  239.2953039187439 ms
+GCP (RPS 1) average duration:  166.78331809166667 ms
+The average duration is 1.4347676173897892 times higher than that under the RPS of 1.
+================================================================================
+Request Serving Architecture Overhead
+--------------------------------------------------------------------------------
+Figure saved to figures/empty_function_latency.pdf
+--------------------------------------------------------------------------------
+Average Latency:
+AWS 128MB: 1.17 ms
+AWS 1769MB: 1.13 ms
+GCP 0.08vCPUs: 5.24 ms
+GCP 1vCPU: 2.37 ms
+Azure Consumption: 5.93 ms
+Cloudflare Workers: 0.00 ms
+--------------------------------------------------------------------------------
+p95 Latency:
+AWS 128MB: 1.67 ms
+AWS 1769MB: 1.63 ms
+GCP 0.08vCPUs: 6.88 ms
+GCP 1vCPU: 2.98 ms
+Azure Consumption: 9.93 ms
+Cloudflare Workers: 0.00 ms
+================================================================================
+Keep Alive
+--------------------------------------------------------------------------------
+Figure saved as figures/cold-start-probability.pdf
+================================================================================
+CPU Over-Allocation (AWS)
+--------------------------------------------------------------------------------
+Figure saved to figures/overallocation_aws.pdf
+================================================================================
+CPU Over-Allocation (GCP)
+--------------------------------------------------------------------------------
+Figure saved to 'figures/overallocation_gcp.pdf'
+================================================================================
+Request CPU Time
+--------------------------------------------------------------------------------
+Average CPU time: 51.765ms
+================================================================================
+Bandwidth Control
+--------------------------------------------------------------------------------
+Figure saved to 'figures/bandwidth_control_32.1ms.pdf'
+Figure saved to 'figures/bandwidth_control_51.8ms.pdf'
+================================================================================
+Scheduler Profiling (AWS)
+--------------------------------------------------------------------------------
+Figure saved to scheduler_profiling_aws.pdf
+================================================================================
+Scheduler Profiling (GCP)
+--------------------------------------------------------------------------------
+Figure saved to figures/scheduler_profiling_gcp.pdf
+================================================================================
+Scheduler Profiling (IBM)
+--------------------------------------------------------------------------------
+Figure saved to figures/scheduler_profiling_ibm.pdf
+================================================================================
+Scheduler Profiling (CFS vs EEVDF)
+--------------------------------------------------------------------------------
+Figure saved to figures/scheduler_profiling_cfs_vs_eedvf.pdf
+Done.
+

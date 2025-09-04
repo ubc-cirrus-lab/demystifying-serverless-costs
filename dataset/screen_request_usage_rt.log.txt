@@ -1,0 +1,2009 @@
+[?2004h[01;32mubuntu@server1[00m:[01;34m~/demystifying-serverless-costs-artifact/dataset[00m$ cd ..
+[?2004l[?2004h[01;32mubuntu@server1[00m:[01;34m~/demystifying-serverless-costs-artifact[00m$ source venv/bac[K[Kin/activate
+[?2004l[?2004h(venv) [01;32mubuntu@server1[00m:[01;34m~/demystifying-serverless-costs-artifact[00m$ cd dataset/
+[?2004l[?2004h(venv) [01;32mubuntu@server1[00m:[01;34m~/demystifying-serverless-costs-artifact/dataset[00m$ python3 process_request_usage_rt.py 
+[?2004lUsing TRACE_DATA_DIR: /data/huawei_traces/public_request_tables
+Processing Region R1 file part-00100-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (1/200)
+  Current total rows: 1970060
+Processing Region R1 file part-00152-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (2/200)
+  Current total rows: 3582704
+Processing Region R1 file part-00102-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (3/200)
+  Current total rows: 5709923
+Processing Region R1 file part-00062-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (4/200)
+  Current total rows: 7384273
+Processing Region R1 file part-00052-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (5/200)
+  Current total rows: 9113019
+Processing Region R1 file part-00114-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (6/200)
+  Current total rows: 11136023
+Processing Region R1 file part-00019-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (7/200)
+  Current total rows: 12969145
+Processing Region R1 file part-00113-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (8/200)
+  Current total rows: 14696080
+Processing Region R1 file part-00077-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (9/200)
+  Current total rows: 16578921
+Processing Region R1 file part-00064-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (10/200)
+  Current total rows: 18492930
+Processing Region R1 file part-00165-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (11/200)
+  Current total rows: 20052755
+Processing Region R1 file part-00161-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (12/200)
+  Current total rows: 21852268
+Processing Region R1 file part-00027-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (13/200)
+  Current total rows: 23687331
+Processing Region R1 file part-00122-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (14/200)
+  Current total rows: 25402522
+Processing Region R1 file part-00184-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (15/200)
+  Current total rows: 27241943
+Processing Region R1 file part-00049-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (16/200)
+  Current total rows: 29063787
+Processing Region R1 file part-00187-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (17/200)
+  Current total rows: 30884168
+Processing Region R1 file part-00041-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (18/200)
+  Current total rows: 32950656
+Processing Region R1 file part-00094-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (19/200)
+  Current total rows: 34744541
+Processing Region R1 file part-00174-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (20/200)
+  Current total rows: 36702648
+Processing Region R1 file part-00092-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (21/200)
+  Current total rows: 38687572
+Processing Region R1 file part-00006-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (22/200)
+  Current total rows: 40451252
+Processing Region R1 file part-00193-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (23/200)
+  Current total rows: 42403702
+Processing Region R1 file part-00135-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (24/200)
+  Current total rows: 44062952
+Processing Region R1 file part-00191-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (25/200)
+  Current total rows: 45767854
+Processing Region R1 file part-00029-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (26/200)
+  Current total rows: 47484629
+Processing Region R1 file part-00038-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (27/200)
+  Current total rows: 49234993
+Processing Region R1 file part-00025-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (28/200)
+  Current total rows: 50981825
+Processing Region R1 file part-00154-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (29/200)
+  Current total rows: 52629181
+Processing Region R1 file part-00158-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (30/200)
+  Current total rows: 54439701
+Processing Region R1 file part-00089-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (31/200)
+  Current total rows: 56215940
+Processing Region R1 file part-00178-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (32/200)
+  Current total rows: 57919626
+Processing Region R1 file part-00182-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (33/200)
+  Current total rows: 59710078
+Processing Region R1 file part-00143-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (34/200)
+  Current total rows: 61326380
+Processing Region R1 file part-00195-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (35/200)
+  Current total rows: 63173258
+Processing Region R1 file part-00121-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (36/200)
+  Current total rows: 64936922
+Processing Region R1 file part-00153-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (37/200)
+  Current total rows: 66698773
+Processing Region R1 file part-00162-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (38/200)
+  Current total rows: 68528927
+Processing Region R1 file part-00133-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (39/200)
+  Current total rows: 70290941
+Processing Region R1 file part-00005-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (40/200)
+  Current total rows: 71980433
+Processing Region R1 file part-00144-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (41/200)
+  Current total rows: 73938888
+Processing Region R1 file part-00048-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (42/200)
+  Current total rows: 75810192
+Processing Region R1 file part-00126-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (43/200)
+  Current total rows: 77631443
+Processing Region R1 file part-00115-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (44/200)
+  Current total rows: 79454006
+Processing Region R1 file part-00045-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (45/200)
+  Current total rows: 81412908
+Processing Region R1 file part-00046-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (46/200)
+  Current total rows: 83014705
+Processing Region R1 file part-00156-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (47/200)
+  Current total rows: 84823671
+Processing Region R1 file part-00105-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (48/200)
+  Current total rows: 86770786
+Processing Region R1 file part-00137-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (49/200)
+  Current total rows: 88606732
+Processing Region R1 file part-00034-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (50/200)
+  Current total rows: 90473244
+Processing Region R1 file part-00053-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (51/200)
+  Current total rows: 92403452
+Processing Region R1 file part-00026-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (52/200)
+  Current total rows: 94309431
+Processing Region R1 file part-00079-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (53/200)
+  Current total rows: 96270175
+Processing Region R1 file part-00078-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (54/200)
+  Current total rows: 97730943
+Processing Region R1 file part-00117-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (55/200)
+  Current total rows: 99740224
+Processing Region R1 file part-00098-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (56/200)
+  Current total rows: 101706058
+Processing Region R1 file part-00013-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (57/200)
+  Current total rows: 103626099
+Processing Region R1 file part-00054-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (58/200)
+  Current total rows: 105429371
+Processing Region R1 file part-00190-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (59/200)
+  Current total rows: 107255805
+Processing Region R1 file part-00012-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (60/200)
+  Current total rows: 109328401
+Processing Region R1 file part-00001-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (61/200)
+  Current total rows: 111172982
+Processing Region R1 file part-00099-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (62/200)
+  Current total rows: 112904710
+Processing Region R1 file part-00157-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (63/200)
+  Current total rows: 114724167
+Processing Region R1 file part-00125-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (64/200)
+  Current total rows: 116520649
+Processing Region R1 file part-00096-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (65/200)
+  Current total rows: 118328596
+Processing Region R1 file part-00107-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (66/200)
+  Current total rows: 120153833
+Processing Region R1 file part-00021-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (67/200)
+  Current total rows: 122184951
+Processing Region R1 file part-00112-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (68/200)
+  Current total rows: 123789887
+Processing Region R1 file part-00086-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (69/200)
+  Current total rows: 125775572
+Processing Region R1 file part-00188-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (70/200)
+  Current total rows: 127380169
+Processing Region R1 file part-00151-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (71/200)
+  Current total rows: 129206092
+Processing Region R1 file part-00069-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (72/200)
+  Current total rows: 131094367
+Processing Region R1 file part-00008-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (73/200)
+  Current total rows: 132961287
+Processing Region R1 file part-00060-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (74/200)
+  Current total rows: 134648607
+Processing Region R1 file part-00181-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (75/200)
+  Current total rows: 136567013
+Processing Region R1 file part-00176-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (76/200)
+  Current total rows: 138380034
+Processing Region R1 file part-00180-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (77/200)
+  Current total rows: 140015330
+Processing Region R1 file part-00103-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (78/200)
+  Current total rows: 141960817
+Processing Region R1 file part-00168-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (79/200)
+  Current total rows: 143834227
+Processing Region R1 file part-00007-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (80/200)
+  Current total rows: 145553362
+Processing Region R1 file part-00185-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (81/200)
+  Current total rows: 147416795
+Processing Region R1 file part-00091-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (82/200)
+  Current total rows: 149111247
+Processing Region R1 file part-00183-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (83/200)
+  Current total rows: 151016655
+Processing Region R1 file part-00146-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (84/200)
+  Current total rows: 152947194
+Processing Region R1 file part-00123-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (85/200)
+  Current total rows: 154651469
+Processing Region R1 file part-00039-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (86/200)
+  Current total rows: 156341388
+Processing Region R1 file part-00010-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (87/200)
+  Current total rows: 158075860
+Processing Region R1 file part-00148-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (88/200)
+  Current total rows: 159775941
+Processing Region R1 file part-00067-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (89/200)
+  Current total rows: 161478446
+Processing Region R1 file part-00199-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (90/200)
+  Current total rows: 163385987
+Processing Region R1 file part-00192-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (91/200)
+  Current total rows: 165172713
+Processing Region R1 file part-00050-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (92/200)
+  Current total rows: 167057829
+Processing Region R1 file part-00020-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (93/200)
+  Current total rows: 168865827
+Processing Region R1 file part-00130-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (94/200)
+  Current total rows: 170578683
+Processing Region R1 file part-00142-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (95/200)
+  Current total rows: 172574145
+Processing Region R1 file part-00023-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (96/200)
+  Current total rows: 174417062
+Processing Region R1 file part-00101-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (97/200)
+  Current total rows: 176215839
+Processing Region R1 file part-00081-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (98/200)
+  Current total rows: 178027468
+Processing Region R1 file part-00035-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (99/200)
+  Current total rows: 179745895
+Processing Region R1 file part-00073-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (100/200)
+  Current total rows: 181384774
+Processing Region R1 file part-00111-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (101/200)
+  Current total rows: 183294738
+Processing Region R1 file part-00059-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (102/200)
+  Current total rows: 185222345
+Processing Region R1 file part-00166-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (103/200)
+  Current total rows: 186966819
+Processing Region R1 file part-00061-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (104/200)
+  Current total rows: 188795695
+Processing Region R1 file part-00149-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (105/200)
+  Current total rows: 190500723
+Processing Region R1 file part-00004-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (106/200)
+  Current total rows: 192344641
+Processing Region R1 file part-00119-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (107/200)
+  Current total rows: 194178397
+Processing Region R1 file part-00070-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (108/200)
+  Current total rows: 196030859
+Processing Region R1 file part-00042-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (109/200)
+  Current total rows: 197950795
+Processing Region R1 file part-00179-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (110/200)
+  Current total rows: 199726644
+Processing Region R1 file part-00056-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (111/200)
+  Current total rows: 201496379
+Processing Region R1 file part-00018-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (112/200)
+  Current total rows: 203163884
+Processing Region R1 file part-00170-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (113/200)
+  Current total rows: 205035574
+Processing Region R1 file part-00003-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (114/200)
+  Current total rows: 206824618
+Processing Region R1 file part-00175-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (115/200)
+  Current total rows: 208461381
+Processing Region R1 file part-00047-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (116/200)
+  Current total rows: 210395267
+Processing Region R1 file part-00063-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (117/200)
+  Current total rows: 212228493
+Processing Region R1 file part-00017-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (118/200)
+  Current total rows: 214089157
+Processing Region R1 file part-00129-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (119/200)
+  Current total rows: 215768387
+Processing Region R1 file part-00139-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (120/200)
+  Current total rows: 217583083
+Processing Region R1 file part-00109-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (121/200)
+  Current total rows: 219411308
+Processing Region R1 file part-00068-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (122/200)
+  Current total rows: 221179542
+Processing Region R1 file part-00093-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (123/200)
+  Current total rows: 222987085
+Processing Region R1 file part-00118-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (124/200)
+  Current total rows: 224939878
+Processing Region R1 file part-00173-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (125/200)
+  Current total rows: 226697573
+Processing Region R1 file part-00132-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (126/200)
+  Current total rows: 228569333
+Processing Region R1 file part-00164-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (127/200)
+  Current total rows: 230493679
+Processing Region R1 file part-00186-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (128/200)
+  Current total rows: 232241139
+Processing Region R1 file part-00150-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (129/200)
+  Current total rows: 233905597
+Processing Region R1 file part-00016-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (130/200)
+  Current total rows: 235653497
+Processing Region R1 file part-00087-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (131/200)
+  Current total rows: 237312060
+Processing Region R1 file part-00015-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (132/200)
+  Current total rows: 239191266
+Processing Region R1 file part-00145-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (133/200)
+  Current total rows: 241076810
+Processing Region R1 file part-00057-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (134/200)
+  Current total rows: 242850429
+Processing Region R1 file part-00075-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (135/200)
+  Current total rows: 244657159
+Processing Region R1 file part-00065-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (136/200)
+  Current total rows: 246583603
+Processing Region R1 file part-00074-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (137/200)
+  Current total rows: 248474171
+Processing Region R1 file part-00051-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (138/200)
+  Current total rows: 250309663
+Processing Region R1 file part-00194-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (139/200)
+  Current total rows: 251899976
+Processing Region R1 file part-00072-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (140/200)
+  Current total rows: 253774594
+Processing Region R1 file part-00136-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (141/200)
+  Current total rows: 255731593
+Processing Region R1 file part-00140-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (142/200)
+  Current total rows: 257575781
+Processing Region R1 file part-00088-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (143/200)
+  Current total rows: 259306394
+Processing Region R1 file part-00076-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (144/200)
+  Current total rows: 261155169
+Processing Region R1 file part-00090-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (145/200)
+  Current total rows: 262800743
+Processing Region R1 file part-00037-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (146/200)
+  Current total rows: 264521871
+Processing Region R1 file part-00198-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (147/200)
+  Current total rows: 266131265
+Processing Region R1 file part-00108-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (148/200)
+  Current total rows: 267998703
+Processing Region R1 file part-00036-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (149/200)
+  Current total rows: 269995376
+Processing Region R1 file part-00085-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (150/200)
+  Current total rows: 271676865
+Processing Region R1 file part-00022-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (151/200)
+  Current total rows: 273416871
+Processing Region R1 file part-00002-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (152/200)
+  Current total rows: 275478340
+Processing Region R1 file part-00071-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (153/200)
+  Current total rows: 277356806
+Processing Region R1 file part-00131-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (154/200)
+  Current total rows: 279207858
+Processing Region R1 file part-00138-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (155/200)
+  Current total rows: 280963660
+Processing Region R1 file part-00097-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (156/200)
+  Current total rows: 282878173
+Processing Region R1 file part-00009-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (157/200)
+  Current total rows: 284802627
+Processing Region R1 file part-00163-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (158/200)
+  Current total rows: 286586750
+Processing Region R1 file part-00160-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (159/200)
+  Current total rows: 288433144
+Processing Region R1 file part-00033-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (160/200)
+  Current total rows: 290336729
+Processing Region R1 file part-00011-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (161/200)
+  Current total rows: 291950338
+Processing Region R1 file part-00197-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (162/200)
+  Current total rows: 293836517
+Processing Region R1 file part-00043-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (163/200)
+  Current total rows: 295634926
+Processing Region R1 file part-00084-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (164/200)
+  Current total rows: 297561402
+Processing Region R1 file part-00116-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (165/200)
+  Current total rows: 299265782
+Processing Region R1 file part-00095-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (166/200)
+  Current total rows: 301225330
+Processing Region R1 file part-00155-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (167/200)
+  Current total rows: 303105524
+Processing Region R1 file part-00159-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (168/200)
+  Current total rows: 304964044
+Processing Region R1 file part-00080-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (169/200)
+  Current total rows: 306977804
+Processing Region R1 file part-00196-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (170/200)
+  Current total rows: 308656435
+Processing Region R1 file part-00055-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (171/200)
+  Current total rows: 310486050
+Processing Region R1 file part-00032-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (172/200)
+  Current total rows: 312245831
+Processing Region R1 file part-00028-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (173/200)
+  Current total rows: 314146108
+Processing Region R1 file part-00177-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (174/200)
+  Current total rows: 315950082
+Processing Region R1 file part-00058-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (175/200)
+  Current total rows: 317646627
+Processing Region R1 file part-00128-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (176/200)
+  Current total rows: 319526314
+Processing Region R1 file part-00066-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (177/200)
+  Current total rows: 321528297
+Processing Region R1 file part-00083-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (178/200)
+  Current total rows: 323242549
+Processing Region R1 file part-00000-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (179/200)
+  Current total rows: 324974814
+Processing Region R1 file part-00167-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (180/200)
+  Current total rows: 326820153
+Processing Region R1 file part-00106-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (181/200)
+  Current total rows: 328904879
+Processing Region R1 file part-00189-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (182/200)
+  Current total rows: 330632721
+Processing Region R1 file part-00147-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (183/200)
+  Current total rows: 332661377
+Processing Region R1 file part-00024-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (184/200)
+  Current total rows: 334811370
+Processing Region R1 file part-00014-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (185/200)
+  Current total rows: 336705367
+Processing Region R1 file part-00110-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (186/200)
+  Current total rows: 338417710
+Processing Region R1 file part-00171-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (187/200)
+  Current total rows: 340012239
+Processing Region R1 file part-00134-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (188/200)
+  Current total rows: 342042507
+Processing Region R1 file part-00044-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (189/200)
+  Current total rows: 343761987
+Processing Region R1 file part-00082-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (190/200)
+  Current total rows: 345690966
+Processing Region R1 file part-00030-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (191/200)
+  Current total rows: 347454921
+Processing Region R1 file part-00141-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (192/200)
+  Current total rows: 349300494
+Processing Region R1 file part-00120-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (193/200)
+  Current total rows: 351210160
+Processing Region R1 file part-00169-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (194/200)
+  Current total rows: 353010049
+Processing Region R1 file part-00124-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (195/200)
+  Current total rows: 354824120
+Processing Region R1 file part-00172-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (196/200)
+  Current total rows: 356688728
+Processing Region R1 file part-00127-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (197/200)
+  Current total rows: 358536589
+Processing Region R1 file part-00031-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (198/200)
+  Current total rows: 360316147
+Processing Region R1 file part-00104-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (199/200)
+  Current total rows: 362277961
+Processing Region R1 file part-00040-a9db421e-592a-4ae3-9d62-fcd995ebd78b-c000.csv (200/200)
+  Current total rows: 364210340
+Processing Region R2 file part-00121-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (1/200)
+  Current total rows: 365771007
+Processing Region R2 file part-00034-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (2/200)
+  Current total rows: 367378818
+Processing Region R2 file part-00186-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (3/200)
+  Current total rows: 369040183
+Processing Region R2 file part-00133-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (4/200)
+  Current total rows: 370545908
+Processing Region R2 file part-00024-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (5/200)
+  Current total rows: 372110277
+Processing Region R2 file part-00055-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (6/200)
+  Current total rows: 373795507
+Processing Region R2 file part-00136-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (7/200)
+  Current total rows: 375478828
+Processing Region R2 file part-00117-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (8/200)
+  Current total rows: 377045771
+Processing Region R2 file part-00111-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (9/200)
+  Current total rows: 378844629
+Processing Region R2 file part-00190-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (10/200)
+  Current total rows: 380688963
+Processing Region R2 file part-00110-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (11/200)
+  Current total rows: 382294819
+Processing Region R2 file part-00129-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (12/200)
+  Current total rows: 384102056
+Processing Region R2 file part-00113-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (13/200)
+  Current total rows: 385758406
+Processing Region R2 file part-00030-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (14/200)
+  Current total rows: 387410890
+Processing Region R2 file part-00012-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (15/200)
+  Current total rows: 389101126
+Processing Region R2 file part-00078-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (16/200)
+  Current total rows: 390841091
+Processing Region R2 file part-00005-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (17/200)
+  Current total rows: 392482011
+Processing Region R2 file part-00058-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (18/200)
+  Current total rows: 394159686
+Processing Region R2 file part-00039-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (19/200)
+  Current total rows: 395906995
+Processing Region R2 file part-00185-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (20/200)
+  Current total rows: 397475855
+Processing Region R2 file part-00188-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (21/200)
+  Current total rows: 399264952
+Processing Region R2 file part-00041-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (22/200)
+  Current total rows: 400990736
+Processing Region R2 file part-00054-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (23/200)
+  Current total rows: 402515748
+Processing Region R2 file part-00170-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (24/200)
+  Current total rows: 404121293
+Processing Region R2 file part-00096-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (25/200)
+  Current total rows: 405820810
+Processing Region R2 file part-00062-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (26/200)
+  Current total rows: 407321650
+Processing Region R2 file part-00089-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (27/200)
+  Current total rows: 408956903
+Processing Region R2 file part-00124-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (28/200)
+  Current total rows: 410555819
+Processing Region R2 file part-00162-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (29/200)
+  Current total rows: 412089159
+Processing Region R2 file part-00037-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (30/200)
+  Current total rows: 413671721
+Processing Region R2 file part-00095-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (31/200)
+  Current total rows: 415314843
+Processing Region R2 file part-00088-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (32/200)
+  Current total rows: 416876768
+Processing Region R2 file part-00068-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (33/200)
+  Current total rows: 418385874
+Processing Region R2 file part-00128-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (34/200)
+  Current total rows: 419889713
+Processing Region R2 file part-00064-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (35/200)
+  Current total rows: 421509242
+Processing Region R2 file part-00023-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (36/200)
+  Current total rows: 423019487
+Processing Region R2 file part-00125-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (37/200)
+  Current total rows: 424657534
+Processing Region R2 file part-00016-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (38/200)
+  Current total rows: 426373643
+Processing Region R2 file part-00069-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (39/200)
+  Current total rows: 427788147
+Processing Region R2 file part-00144-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (40/200)
+  Current total rows: 429400343
+Processing Region R2 file part-00019-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (41/200)
+  Current total rows: 431050008
+Processing Region R2 file part-00093-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (42/200)
+  Current total rows: 432773432
+Processing Region R2 file part-00081-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (43/200)
+  Current total rows: 434535859
+Processing Region R2 file part-00182-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (44/200)
+  Current total rows: 436214771
+Processing Region R2 file part-00080-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (45/200)
+  Current total rows: 437873085
+Processing Region R2 file part-00017-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (46/200)
+  Current total rows: 439577407
+Processing Region R2 file part-00066-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (47/200)
+  Current total rows: 441027640
+Processing Region R2 file part-00007-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (48/200)
+  Current total rows: 442688355
+Processing Region R2 file part-00044-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (49/200)
+  Current total rows: 444576728
+Processing Region R2 file part-00038-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (50/200)
+  Current total rows: 446321452
+Processing Region R2 file part-00157-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (51/200)
+  Current total rows: 447958789
+Processing Region R2 file part-00134-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (52/200)
+  Current total rows: 449586151
+Processing Region R2 file part-00050-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (53/200)
+  Current total rows: 451138255
+Processing Region R2 file part-00174-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (54/200)
+  Current total rows: 452813143
+Processing Region R2 file part-00048-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (55/200)
+  Current total rows: 454393956
+Processing Region R2 file part-00032-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (56/200)
+  Current total rows: 455960817
+Processing Region R2 file part-00042-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (57/200)
+  Current total rows: 457657340
+Processing Region R2 file part-00120-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (58/200)
+  Current total rows: 459344156
+Processing Region R2 file part-00176-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (59/200)
+  Current total rows: 460822845
+Processing Region R2 file part-00107-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (60/200)
+  Current total rows: 462390560
+Processing Region R2 file part-00091-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (61/200)
+  Current total rows: 464010144
+Processing Region R2 file part-00142-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (62/200)
+  Current total rows: 465614486
+Processing Region R2 file part-00172-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (63/200)
+  Current total rows: 467119658
+Processing Region R2 file part-00153-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (64/200)
+  Current total rows: 468837518
+Processing Region R2 file part-00008-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (65/200)
+  Current total rows: 470456536
+Processing Region R2 file part-00077-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (66/200)
+  Current total rows: 472134517
+Processing Region R2 file part-00014-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (67/200)
+  Current total rows: 473801830
+Processing Region R2 file part-00087-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (68/200)
+  Current total rows: 475297260
+Processing Region R2 file part-00009-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (69/200)
+  Current total rows: 476859765
+Processing Region R2 file part-00151-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (70/200)
+  Current total rows: 478369992
+Processing Region R2 file part-00000-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (71/200)
+  Current total rows: 479894530
+Processing Region R2 file part-00150-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (72/200)
+  Current total rows: 481443853
+Processing Region R2 file part-00059-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (73/200)
+  Current total rows: 482979031
+Processing Region R2 file part-00189-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (74/200)
+  Current total rows: 484529951
+Processing Region R2 file part-00132-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (75/200)
+  Current total rows: 486043906
+Processing Region R2 file part-00193-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (76/200)
+  Current total rows: 487707226
+Processing Region R2 file part-00046-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (77/200)
+  Current total rows: 489247978
+Processing Region R2 file part-00122-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (78/200)
+  Current total rows: 490776407
+Processing Region R2 file part-00010-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (79/200)
+  Current total rows: 492330149
+Processing Region R2 file part-00183-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (80/200)
+  Current total rows: 493805577
+Processing Region R2 file part-00198-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (81/200)
+  Current total rows: 495501509
+Processing Region R2 file part-00165-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (82/200)
+  Current total rows: 496995969
+Processing Region R2 file part-00031-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (83/200)
+  Current total rows: 498561303
+Processing Region R2 file part-00052-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (84/200)
+  Current total rows: 500306724
+Processing Region R2 file part-00099-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (85/200)
+  Current total rows: 501972792
+Processing Region R2 file part-00013-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (86/200)
+  Current total rows: 503536265
+Processing Region R2 file part-00063-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (87/200)
+  Current total rows: 505174999
+Processing Region R2 file part-00102-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (88/200)
+  Current total rows: 506700232
+Processing Region R2 file part-00022-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (89/200)
+  Current total rows: 508316868
+Processing Region R2 file part-00101-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (90/200)
+  Current total rows: 509953387
+Processing Region R2 file part-00179-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (91/200)
+  Current total rows: 511549064
+Processing Region R2 file part-00181-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (92/200)
+  Current total rows: 513120428
+Processing Region R2 file part-00028-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (93/200)
+  Current total rows: 514735067
+Processing Region R2 file part-00112-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (94/200)
+  Current total rows: 516238129
+Processing Region R2 file part-00036-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (95/200)
+  Current total rows: 517789990
+Processing Region R2 file part-00147-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (96/200)
+  Current total rows: 519426680
+Processing Region R2 file part-00171-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (97/200)
+  Current total rows: 521012423
+Processing Region R2 file part-00145-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (98/200)
+  Current total rows: 522632395
+Processing Region R2 file part-00098-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (99/200)
+  Current total rows: 524205060
+Processing Region R2 file part-00177-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (100/200)
+  Current total rows: 525773543
+Processing Region R2 file part-00160-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (101/200)
+  Current total rows: 527202690
+Processing Region R2 file part-00071-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (102/200)
+  Current total rows: 528743590
+Processing Region R2 file part-00049-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (103/200)
+  Current total rows: 530324304
+Processing Region R2 file part-00090-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (104/200)
+  Current total rows: 531821489
+Processing Region R2 file part-00139-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (105/200)
+  Current total rows: 533396180
+Processing Region R2 file part-00073-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (106/200)
+  Current total rows: 534983486
+Processing Region R2 file part-00115-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (107/200)
+  Current total rows: 536564878
+Processing Region R2 file part-00006-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (108/200)
+  Current total rows: 538150279
+Processing Region R2 file part-00057-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (109/200)
+  Current total rows: 539858373
+Processing Region R2 file part-00161-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (110/200)
+  Current total rows: 541432074
+Processing Region R2 file part-00119-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (111/200)
+  Current total rows: 543097169
+Processing Region R2 file part-00149-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (112/200)
+  Current total rows: 544710404
+Processing Region R2 file part-00148-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (113/200)
+  Current total rows: 546352037
+Processing Region R2 file part-00184-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (114/200)
+  Current total rows: 548067219
+Processing Region R2 file part-00075-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (115/200)
+  Current total rows: 549664197
+Processing Region R2 file part-00074-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (116/200)
+  Current total rows: 551353142
+Processing Region R2 file part-00067-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (117/200)
+  Current total rows: 552807374
+Processing Region R2 file part-00027-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (118/200)
+  Current total rows: 554487095
+Processing Region R2 file part-00199-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (119/200)
+  Current total rows: 556128425
+Processing Region R2 file part-00053-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (120/200)
+  Current total rows: 557574420
+Processing Region R2 file part-00086-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (121/200)
+  Current total rows: 559161888
+Processing Region R2 file part-00097-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (122/200)
+  Current total rows: 560690756
+Processing Region R2 file part-00116-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (123/200)
+  Current total rows: 562243661
+Processing Region R2 file part-00178-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (124/200)
+  Current total rows: 563878544
+Processing Region R2 file part-00001-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (125/200)
+  Current total rows: 565560493
+Processing Region R2 file part-00123-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (126/200)
+  Current total rows: 567118790
+Processing Region R2 file part-00105-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (127/200)
+  Current total rows: 568644481
+Processing Region R2 file part-00109-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (128/200)
+  Current total rows: 570217619
+Processing Region R2 file part-00094-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (129/200)
+  Current total rows: 571869512
+Processing Region R2 file part-00051-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (130/200)
+  Current total rows: 573538815
+Processing Region R2 file part-00043-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (131/200)
+  Current total rows: 575063875
+Processing Region R2 file part-00021-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (132/200)
+  Current total rows: 576739297
+Processing Region R2 file part-00187-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (133/200)
+  Current total rows: 578203180
+Processing Region R2 file part-00065-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (134/200)
+  Current total rows: 579706732
+Processing Region R2 file part-00180-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (135/200)
+  Current total rows: 581277147
+Processing Region R2 file part-00072-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (136/200)
+  Current total rows: 582932375
+Processing Region R2 file part-00070-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (137/200)
+  Current total rows: 584431511
+Processing Region R2 file part-00146-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (138/200)
+  Current total rows: 585881827
+Processing Region R2 file part-00158-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (139/200)
+  Current total rows: 587376665
+Processing Region R2 file part-00106-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (140/200)
+  Current total rows: 588940193
+Processing Region R2 file part-00135-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (141/200)
+  Current total rows: 590439101
+Processing Region R2 file part-00155-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (142/200)
+  Current total rows: 591914638
+Processing Region R2 file part-00035-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (143/200)
+  Current total rows: 593508104
+Processing Region R2 file part-00085-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (144/200)
+  Current total rows: 595160317
+Processing Region R2 file part-00191-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (145/200)
+  Current total rows: 596621829
+Processing Region R2 file part-00152-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (146/200)
+  Current total rows: 598218246
+Processing Region R2 file part-00196-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (147/200)
+  Current total rows: 599642817
+Processing Region R2 file part-00026-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (148/200)
+  Current total rows: 601233067
+Processing Region R2 file part-00103-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (149/200)
+  Current total rows: 602897034
+Processing Region R2 file part-00045-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (150/200)
+  Current total rows: 604448364
+Processing Region R2 file part-00169-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (151/200)
+  Current total rows: 606036488
+Processing Region R2 file part-00175-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (152/200)
+  Current total rows: 607614666
+Processing Region R2 file part-00156-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (153/200)
+  Current total rows: 609174310
+Processing Region R2 file part-00104-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (154/200)
+  Current total rows: 610913256
+Processing Region R2 file part-00118-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (155/200)
+  Current total rows: 612549332
+Processing Region R2 file part-00011-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (156/200)
+  Current total rows: 614186587
+Processing Region R2 file part-00100-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (157/200)
+  Current total rows: 615882661
+Processing Region R2 file part-00015-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (158/200)
+  Current total rows: 617485115
+Processing Region R2 file part-00018-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (159/200)
+  Current total rows: 619219698
+Processing Region R2 file part-00154-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (160/200)
+  Current total rows: 620836704
+Processing Region R2 file part-00076-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (161/200)
+  Current total rows: 622432522
+Processing Region R2 file part-00004-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (162/200)
+  Current total rows: 624134122
+Processing Region R2 file part-00163-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (163/200)
+  Current total rows: 625954539
+Processing Region R2 file part-00195-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (164/200)
+  Current total rows: 627489773
+Processing Region R2 file part-00192-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (165/200)
+  Current total rows: 629037256
+Processing Region R2 file part-00029-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (166/200)
+  Current total rows: 630581398
+Processing Region R2 file part-00166-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (167/200)
+  Current total rows: 632234173
+Processing Region R2 file part-00143-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (168/200)
+  Current total rows: 633860993
+Processing Region R2 file part-00033-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (169/200)
+  Current total rows: 635314110
+Processing Region R2 file part-00003-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (170/200)
+  Current total rows: 636922246
+Processing Region R2 file part-00061-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (171/200)
+  Current total rows: 638368726
+Processing Region R2 file part-00082-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (172/200)
+  Current total rows: 639923178
+Processing Region R2 file part-00130-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (173/200)
+  Current total rows: 641614592
+Processing Region R2 file part-00197-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (174/200)
+  Current total rows: 643242337
+Processing Region R2 file part-00168-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (175/200)
+  Current total rows: 644966133
+Processing Region R2 file part-00092-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (176/200)
+  Current total rows: 646575045
+Processing Region R2 file part-00194-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (177/200)
+  Current total rows: 648219831
+Processing Region R2 file part-00060-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (178/200)
+  Current total rows: 649774924
+Processing Region R2 file part-00173-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (179/200)
+  Current total rows: 651357493
+Processing Region R2 file part-00002-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (180/200)
+  Current total rows: 653028258
+Processing Region R2 file part-00079-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (181/200)
+  Current total rows: 654613926
+Processing Region R2 file part-00159-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (182/200)
+  Current total rows: 656304221
+Processing Region R2 file part-00131-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (183/200)
+  Current total rows: 657949022
+Processing Region R2 file part-00047-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (184/200)
+  Current total rows: 659618333
+Processing Region R2 file part-00138-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (185/200)
+  Current total rows: 661377047
+Processing Region R2 file part-00114-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (186/200)
+  Current total rows: 662857607
+Processing Region R2 file part-00164-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (187/200)
+  Current total rows: 664417098
+Processing Region R2 file part-00126-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (188/200)
+  Current total rows: 665842890
+Processing Region R2 file part-00056-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (189/200)
+  Current total rows: 667360883
+Processing Region R2 file part-00025-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (190/200)
+  Current total rows: 669183836
+Processing Region R2 file part-00108-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (191/200)
+  Current total rows: 670861933
+Processing Region R2 file part-00020-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (192/200)
+  Current total rows: 672465563
+Processing Region R2 file part-00141-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (193/200)
+  Current total rows: 674016651
+Processing Region R2 file part-00137-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (194/200)
+  Current total rows: 675692372
+Processing Region R2 file part-00167-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (195/200)
+  Current total rows: 677174676
+Processing Region R2 file part-00084-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (196/200)
+  Current total rows: 678828142
+Processing Region R2 file part-00040-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (197/200)
+  Current total rows: 680706818
+Processing Region R2 file part-00083-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (198/200)
+  Current total rows: 682354441
+Processing Region R2 file part-00140-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (199/200)
+  Current total rows: 684031327
+Processing Region R2 file part-00127-1e3cf064-4a06-4ff0-ae8f-a836612b1b04-c000.csv (200/200)
+  Current total rows: 685555550
+Processing Region R3 file part-00015-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (1/200)
+  Current total rows: 686438307
+Processing Region R3 file part-00004-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (2/200)
+  Current total rows: 687318350
+Processing Region R3 file part-00086-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (3/200)
+  Current total rows: 688245438
+Processing Region R3 file part-00129-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (4/200)
+  Current total rows: 689268689
+Processing Region R3 file part-00003-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (5/200)
+  Current total rows: 690252214
+Processing Region R3 file part-00098-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (6/200)
+  Current total rows: 691274589
+Processing Region R3 file part-00162-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (7/200)
+  Current total rows: 692238622
+Processing Region R3 file part-00101-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (8/200)
+  Current total rows: 693127522
+Processing Region R3 file part-00181-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (9/200)
+  Current total rows: 694076847
+Processing Region R3 file part-00107-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (10/200)
+  Current total rows: 695015764
+Processing Region R3 file part-00011-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (11/200)
+  Current total rows: 696040231
+Processing Region R3 file part-00071-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (12/200)
+  Current total rows: 696847824
+Processing Region R3 file part-00082-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (13/200)
+  Current total rows: 697740617
+Processing Region R3 file part-00111-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (14/200)
+  Current total rows: 698703130
+Processing Region R3 file part-00063-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (15/200)
+  Current total rows: 699558299
+Processing Region R3 file part-00078-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (16/200)
+  Current total rows: 700442819
+Processing Region R3 file part-00052-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (17/200)
+  Current total rows: 701459671
+Processing Region R3 file part-00093-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (18/200)
+  Current total rows: 702443624
+Processing Region R3 file part-00138-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (19/200)
+  Current total rows: 703340548
+Processing Region R3 file part-00075-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (20/200)
+  Current total rows: 704308081
+Processing Region R3 file part-00140-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (21/200)
+  Current total rows: 705248814
+Processing Region R3 file part-00166-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (22/200)
+  Current total rows: 706220543
+Processing Region R3 file part-00072-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (23/200)
+  Current total rows: 707193280
+Processing Region R3 file part-00042-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (24/200)
+  Current total rows: 708104748
+Processing Region R3 file part-00142-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (25/200)
+  Current total rows: 709144788
+Processing Region R3 file part-00144-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (26/200)
+  Current total rows: 710123908
+Processing Region R3 file part-00110-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (27/200)
+  Current total rows: 711091400
+Processing Region R3 file part-00145-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (28/200)
+  Current total rows: 711936728
+Processing Region R3 file part-00105-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (29/200)
+  Current total rows: 712951170
+Processing Region R3 file part-00054-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (30/200)
+  Current total rows: 713911210
+Processing Region R3 file part-00061-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (31/200)
+  Current total rows: 714856312
+Processing Region R3 file part-00009-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (32/200)
+  Current total rows: 715831872
+Processing Region R3 file part-00157-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (33/200)
+  Current total rows: 716819882
+Processing Region R3 file part-00128-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (34/200)
+  Current total rows: 717846202
+Processing Region R3 file part-00164-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (35/200)
+  Current total rows: 718815950
+Processing Region R3 file part-00019-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (36/200)
+  Current total rows: 719851374
+Processing Region R3 file part-00047-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (37/200)
+  Current total rows: 720821348
+Processing Region R3 file part-00106-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (38/200)
+  Current total rows: 721773252
+Processing Region R3 file part-00113-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (39/200)
+  Current total rows: 722799522
+Processing Region R3 file part-00060-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (40/200)
+  Current total rows: 723828205
+Processing Region R3 file part-00193-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (41/200)
+  Current total rows: 724766625
+Processing Region R3 file part-00007-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (42/200)
+  Current total rows: 725761709
+Processing Region R3 file part-00059-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (43/200)
+  Current total rows: 726671802
+Processing Region R3 file part-00123-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (44/200)
+  Current total rows: 727625645
+Processing Region R3 file part-00085-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (45/200)
+  Current total rows: 728596831
+Processing Region R3 file part-00074-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (46/200)
+  Current total rows: 729527458
+Processing Region R3 file part-00024-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (47/200)
+  Current total rows: 730446644
+Processing Region R3 file part-00016-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (48/200)
+  Current total rows: 731409083
+Processing Region R3 file part-00095-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (49/200)
+  Current total rows: 732329652
+Processing Region R3 file part-00112-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (50/200)
+  Current total rows: 733229629
+Processing Region R3 file part-00058-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (51/200)
+  Current total rows: 734149104
+Processing Region R3 file part-00153-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (52/200)
+  Current total rows: 735106153
+Processing Region R3 file part-00092-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (53/200)
+  Current total rows: 736118203
+Processing Region R3 file part-00045-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (54/200)
+  Current total rows: 737124177
+Processing Region R3 file part-00165-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (55/200)
+  Current total rows: 738050716
+Processing Region R3 file part-00083-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (56/200)
+  Current total rows: 739024009
+Processing Region R3 file part-00199-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (57/200)
+  Current total rows: 739975530
+Processing Region R3 file part-00163-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (58/200)
+  Current total rows: 740914787
+Processing Region R3 file part-00005-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (59/200)
+  Current total rows: 741881284
+Processing Region R3 file part-00001-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (60/200)
+  Current total rows: 742841980
+Processing Region R3 file part-00102-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (61/200)
+  Current total rows: 743769862
+Processing Region R3 file part-00198-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (62/200)
+  Current total rows: 744772635
+Processing Region R3 file part-00023-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (63/200)
+  Current total rows: 745725358
+Processing Region R3 file part-00114-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (64/200)
+  Current total rows: 746698738
+Processing Region R3 file part-00081-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (65/200)
+  Current total rows: 747661024
+Processing Region R3 file part-00171-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (66/200)
+  Current total rows: 748539726
+Processing Region R3 file part-00152-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (67/200)
+  Current total rows: 749572179
+Processing Region R3 file part-00064-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (68/200)
+  Current total rows: 750487175
+Processing Region R3 file part-00185-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (69/200)
+  Current total rows: 751497830
+Processing Region R3 file part-00057-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (70/200)
+  Current total rows: 752543720
+Processing Region R3 file part-00197-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (71/200)
+  Current total rows: 753420095
+Processing Region R3 file part-00117-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (72/200)
+  Current total rows: 754280391
+Processing Region R3 file part-00132-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (73/200)
+  Current total rows: 755140194
+Processing Region R3 file part-00066-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (74/200)
+  Current total rows: 756057081
+Processing Region R3 file part-00187-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (75/200)
+  Current total rows: 757039587
+Processing Region R3 file part-00186-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (76/200)
+  Current total rows: 757995469
+Processing Region R3 file part-00039-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (77/200)
+  Current total rows: 759029062
+Processing Region R3 file part-00046-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (78/200)
+  Current total rows: 760018636
+Processing Region R3 file part-00174-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (79/200)
+  Current total rows: 760967621
+Processing Region R3 file part-00167-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (80/200)
+  Current total rows: 761890070
+Processing Region R3 file part-00080-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (81/200)
+  Current total rows: 762851450
+Processing Region R3 file part-00173-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (82/200)
+  Current total rows: 763868921
+Processing Region R3 file part-00104-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (83/200)
+  Current total rows: 764825963
+Processing Region R3 file part-00097-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (84/200)
+  Current total rows: 765810898
+Processing Region R3 file part-00116-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (85/200)
+  Current total rows: 766782731
+Processing Region R3 file part-00168-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (86/200)
+  Current total rows: 767709692
+Processing Region R3 file part-00037-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (87/200)
+  Current total rows: 768594360
+Processing Region R3 file part-00127-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (88/200)
+  Current total rows: 769632621
+Processing Region R3 file part-00139-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (89/200)
+  Current total rows: 770657545
+Processing Region R3 file part-00056-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (90/200)
+  Current total rows: 771642680
+Processing Region R3 file part-00099-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (91/200)
+  Current total rows: 772703754
+Processing Region R3 file part-00022-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (92/200)
+  Current total rows: 773729077
+Processing Region R3 file part-00035-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (93/200)
+  Current total rows: 774615221
+Processing Region R3 file part-00026-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (94/200)
+  Current total rows: 775695912
+Processing Region R3 file part-00190-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (95/200)
+  Current total rows: 776607245
+Processing Region R3 file part-00182-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (96/200)
+  Current total rows: 777484638
+Processing Region R3 file part-00158-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (97/200)
+  Current total rows: 778487354
+Processing Region R3 file part-00115-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (98/200)
+  Current total rows: 779422160
+Processing Region R3 file part-00184-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (99/200)
+  Current total rows: 780324608
+Processing Region R3 file part-00196-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (100/200)
+  Current total rows: 781365450
+Processing Region R3 file part-00194-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (101/200)
+  Current total rows: 782277702
+Processing Region R3 file part-00049-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (102/200)
+  Current total rows: 783209578
+Processing Region R3 file part-00051-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (103/200)
+  Current total rows: 784170661
+Processing Region R3 file part-00124-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (104/200)
+  Current total rows: 785145822
+Processing Region R3 file part-00170-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (105/200)
+  Current total rows: 786188444
+Processing Region R3 file part-00172-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (106/200)
+  Current total rows: 787202699
+Processing Region R3 file part-00062-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (107/200)
+  Current total rows: 788101286
+Processing Region R3 file part-00087-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (108/200)
+  Current total rows: 789050254
+Processing Region R3 file part-00044-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (109/200)
+  Current total rows: 790082413
+Processing Region R3 file part-00079-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (110/200)
+  Current total rows: 791023176
+Processing Region R3 file part-00178-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (111/200)
+  Current total rows: 792067306
+Processing Region R3 file part-00013-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (112/200)
+  Current total rows: 792977904
+Processing Region R3 file part-00131-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (113/200)
+  Current total rows: 793893226
+Processing Region R3 file part-00084-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (114/200)
+  Current total rows: 794938291
+Processing Region R3 file part-00038-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (115/200)
+  Current total rows: 795896366
+Processing Region R3 file part-00036-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (116/200)
+  Current total rows: 796869528
+Processing Region R3 file part-00130-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (117/200)
+  Current total rows: 797810899
+Processing Region R3 file part-00149-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (118/200)
+  Current total rows: 798819870
+Processing Region R3 file part-00188-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (119/200)
+  Current total rows: 799734481
+Processing Region R3 file part-00055-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (120/200)
+  Current total rows: 800750590
+Processing Region R3 file part-00031-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (121/200)
+  Current total rows: 801831756
+Processing Region R3 file part-00146-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (122/200)
+  Current total rows: 802869086
+Processing Region R3 file part-00177-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (123/200)
+  Current total rows: 803803210
+Processing Region R3 file part-00125-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (124/200)
+  Current total rows: 804773687
+Processing Region R3 file part-00133-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (125/200)
+  Current total rows: 805738056
+Processing Region R3 file part-00103-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (126/200)
+  Current total rows: 806646141
+Processing Region R3 file part-00195-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (127/200)
+  Current total rows: 807741430
+Processing Region R3 file part-00020-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (128/200)
+  Current total rows: 808757648
+Processing Region R3 file part-00169-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (129/200)
+  Current total rows: 809645267
+Processing Region R3 file part-00122-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (130/200)
+  Current total rows: 810602303
+Processing Region R3 file part-00148-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (131/200)
+  Current total rows: 811549162
+Processing Region R3 file part-00025-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (132/200)
+  Current total rows: 812539773
+Processing Region R3 file part-00137-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (133/200)
+  Current total rows: 813479838
+Processing Region R3 file part-00014-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (134/200)
+  Current total rows: 814442364
+Processing Region R3 file part-00033-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (135/200)
+  Current total rows: 815516861
+Processing Region R3 file part-00006-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (136/200)
+  Current total rows: 816363607
+Processing Region R3 file part-00069-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (137/200)
+  Current total rows: 817312889
+Processing Region R3 file part-00175-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (138/200)
+  Current total rows: 818264856
+Processing Region R3 file part-00119-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (139/200)
+  Current total rows: 819210686
+Processing Region R3 file part-00030-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (140/200)
+  Current total rows: 820219307
+Processing Region R3 file part-00018-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (141/200)
+  Current total rows: 821178017
+Processing Region R3 file part-00034-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (142/200)
+  Current total rows: 822158633
+Processing Region R3 file part-00027-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (143/200)
+  Current total rows: 823047018
+Processing Region R3 file part-00070-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (144/200)
+  Current total rows: 824066745
+Processing Region R3 file part-00050-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (145/200)
+  Current total rows: 824990657
+Processing Region R3 file part-00154-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (146/200)
+  Current total rows: 826072926
+Processing Region R3 file part-00053-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (147/200)
+  Current total rows: 827079479
+Processing Region R3 file part-00120-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (148/200)
+  Current total rows: 828108875
+Processing Region R3 file part-00091-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (149/200)
+  Current total rows: 829102900
+Processing Region R3 file part-00180-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (150/200)
+  Current total rows: 830151591
+Processing Region R3 file part-00010-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (151/200)
+  Current total rows: 831068482
+Processing Region R3 file part-00077-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (152/200)
+  Current total rows: 832139066
+Processing Region R3 file part-00135-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (153/200)
+  Current total rows: 833070360
+Processing Region R3 file part-00121-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (154/200)
+  Current total rows: 834018737
+Processing Region R3 file part-00068-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (155/200)
+  Current total rows: 834985556
+Processing Region R3 file part-00048-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (156/200)
+  Current total rows: 835946496
+Processing Region R3 file part-00160-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (157/200)
+  Current total rows: 836866624
+Processing Region R3 file part-00156-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (158/200)
+  Current total rows: 837795359
+Processing Region R3 file part-00043-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (159/200)
+  Current total rows: 838698054
+Processing Region R3 file part-00136-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (160/200)
+  Current total rows: 839777952
+Processing Region R3 file part-00159-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (161/200)
+  Current total rows: 840777974
+Processing Region R3 file part-00088-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (162/200)
+  Current total rows: 841784917
+Processing Region R3 file part-00126-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (163/200)
+  Current total rows: 842707795
+Processing Region R3 file part-00041-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (164/200)
+  Current total rows: 843659855
+Processing Region R3 file part-00108-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (165/200)
+  Current total rows: 844611078
+Processing Region R3 file part-00012-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (166/200)
+  Current total rows: 845553906
+Processing Region R3 file part-00134-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (167/200)
+  Current total rows: 846423756
+Processing Region R3 file part-00067-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (168/200)
+  Current total rows: 847321386
+Processing Region R3 file part-00109-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (169/200)
+  Current total rows: 848295822
+Processing Region R3 file part-00065-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (170/200)
+  Current total rows: 849225784
+Processing Region R3 file part-00029-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (171/200)
+  Current total rows: 850251373
+Processing Region R3 file part-00189-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (172/200)
+  Current total rows: 851161085
+Processing Region R3 file part-00073-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (173/200)
+  Current total rows: 852147939
+Processing Region R3 file part-00076-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (174/200)
+  Current total rows: 853115042
+Processing Region R3 file part-00032-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (175/200)
+  Current total rows: 854142702
+Processing Region R3 file part-00192-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (176/200)
+  Current total rows: 855035398
+Processing Region R3 file part-00161-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (177/200)
+  Current total rows: 855958813
+Processing Region R3 file part-00151-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (178/200)
+  Current total rows: 856848049
+Processing Region R3 file part-00155-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (179/200)
+  Current total rows: 857808087
+Processing Region R3 file part-00000-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (180/200)
+  Current total rows: 858710272
+Processing Region R3 file part-00100-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (181/200)
+  Current total rows: 859645642
+Processing Region R3 file part-00191-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (182/200)
+  Current total rows: 860509164
+Processing Region R3 file part-00096-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (183/200)
+  Current total rows: 861505761
+Processing Region R3 file part-00028-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (184/200)
+  Current total rows: 862435648
+Processing Region R3 file part-00141-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (185/200)
+  Current total rows: 863423401
+Processing Region R3 file part-00179-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (186/200)
+  Current total rows: 864515877
+Processing Region R3 file part-00002-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (187/200)
+  Current total rows: 865568574
+Processing Region R3 file part-00176-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (188/200)
+  Current total rows: 866439506
+Processing Region R3 file part-00089-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (189/200)
+  Current total rows: 867372443
+Processing Region R3 file part-00150-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (190/200)
+  Current total rows: 868201940
+Processing Region R3 file part-00094-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (191/200)
+  Current total rows: 869172633
+Processing Region R3 file part-00090-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (192/200)
+  Current total rows: 870234058
+Processing Region R3 file part-00021-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (193/200)
+  Current total rows: 871148259
+Processing Region R3 file part-00183-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (194/200)
+  Current total rows: 872095792
+Processing Region R3 file part-00040-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (195/200)
+  Current total rows: 873054600
+Processing Region R3 file part-00118-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (196/200)
+  Current total rows: 873951875
+Processing Region R3 file part-00017-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (197/200)
+  Current total rows: 874932956
+Processing Region R3 file part-00143-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (198/200)
+  Current total rows: 875878720
+Processing Region R3 file part-00147-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (199/200)
+  Current total rows: 876817228
+Processing Region R3 file part-00008-c1968859-adc2-4873-8b17-c5ef25f9b09f-c000.csv (200/200)
+  Current total rows: 877752688
+Processing Region R4 file part-00006-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (1/200)
+  Current total rows: 878058697
+Processing Region R4 file part-00015-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (2/200)
+  Current total rows: 878386154
+Processing Region R4 file part-00141-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (3/200)
+  Current total rows: 878709348
+Processing Region R4 file part-00095-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (4/200)
+  Current total rows: 879034128
+Processing Region R4 file part-00055-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (5/200)
+  Current total rows: 879368567
+Processing Region R4 file part-00188-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (6/200)
+  Current total rows: 879692041
+Processing Region R4 file part-00106-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (7/200)
+  Current total rows: 880019024
+Processing Region R4 file part-00035-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (8/200)
+  Current total rows: 880314068
+Processing Region R4 file part-00075-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (9/200)
+  Current total rows: 880665014
+Processing Region R4 file part-00196-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (10/200)
+  Current total rows: 881008321
+Processing Region R4 file part-00068-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (11/200)
+  Current total rows: 881356281
+Processing Region R4 file part-00137-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (12/200)
+  Current total rows: 881702274
+Processing Region R4 file part-00111-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (13/200)
+  Current total rows: 882040585
+Processing Region R4 file part-00040-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (14/200)
+  Current total rows: 882361466
+Processing Region R4 file part-00085-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (15/200)
+  Current total rows: 882706597
+Processing Region R4 file part-00058-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (16/200)
+  Current total rows: 883085285
+Processing Region R4 file part-00066-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (17/200)
+  Current total rows: 883415163
+Processing Region R4 file part-00102-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (18/200)
+  Current total rows: 883752507
+Processing Region R4 file part-00134-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (19/200)
+  Current total rows: 884055162
+Processing Region R4 file part-00181-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (20/200)
+  Current total rows: 884371384
+Processing Region R4 file part-00120-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (21/200)
+  Current total rows: 884691798
+Processing Region R4 file part-00171-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (22/200)
+  Current total rows: 884979648
+Processing Region R4 file part-00123-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (23/200)
+  Current total rows: 885309499
+Processing Region R4 file part-00027-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (24/200)
+  Current total rows: 885646882
+Processing Region R4 file part-00138-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (25/200)
+  Current total rows: 885985271
+Processing Region R4 file part-00117-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (26/200)
+  Current total rows: 886348727
+Processing Region R4 file part-00054-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (27/200)
+  Current total rows: 886689403
+Processing Region R4 file part-00175-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (28/200)
+  Current total rows: 887028347
+Processing Region R4 file part-00031-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (29/200)
+  Current total rows: 887394132
+Processing Region R4 file part-00069-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (30/200)
+  Current total rows: 887725277
+Processing Region R4 file part-00074-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (31/200)
+  Current total rows: 888087771
+Processing Region R4 file part-00129-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (32/200)
+  Current total rows: 888390407
+Processing Region R4 file part-00064-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (33/200)
+  Current total rows: 888747318
+Processing Region R4 file part-00007-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (34/200)
+  Current total rows: 889080094
+Processing Region R4 file part-00005-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (35/200)
+  Current total rows: 889411056
+Processing Region R4 file part-00028-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (36/200)
+  Current total rows: 889754101
+Processing Region R4 file part-00029-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (37/200)
+  Current total rows: 890090367
+Processing Region R4 file part-00185-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (38/200)
+  Current total rows: 890432791
+Processing Region R4 file part-00177-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (39/200)
+  Current total rows: 890740924
+Processing Region R4 file part-00020-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (40/200)
+  Current total rows: 891092249
+Processing Region R4 file part-00094-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (41/200)
+  Current total rows: 891453724
+Processing Region R4 file part-00047-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (42/200)
+  Current total rows: 891792883
+Processing Region R4 file part-00128-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (43/200)
+  Current total rows: 892175534
+Processing Region R4 file part-00078-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (44/200)
+  Current total rows: 892506275
+Processing Region R4 file part-00174-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (45/200)
+  Current total rows: 892858330
+Processing Region R4 file part-00023-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (46/200)
+  Current total rows: 893209423
+Processing Region R4 file part-00187-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (47/200)
+  Current total rows: 893541810
+Processing Region R4 file part-00093-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (48/200)
+  Current total rows: 893900818
+Processing Region R4 file part-00179-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (49/200)
+  Current total rows: 894224194
+Processing Region R4 file part-00089-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (50/200)
+  Current total rows: 894567893
+Processing Region R4 file part-00195-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (51/200)
+  Current total rows: 894875830
+Processing Region R4 file part-00139-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (52/200)
+  Current total rows: 895183070
+Processing Region R4 file part-00133-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (53/200)
+  Current total rows: 895538367
+Processing Region R4 file part-00183-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (54/200)
+  Current total rows: 895890439
+Processing Region R4 file part-00160-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (55/200)
+  Current total rows: 896203874
+Processing Region R4 file part-00161-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (56/200)
+  Current total rows: 896545806
+Processing Region R4 file part-00169-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (57/200)
+  Current total rows: 896891375
+Processing Region R4 file part-00110-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (58/200)
+  Current total rows: 897216355
+Processing Region R4 file part-00016-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (59/200)
+  Current total rows: 897536149
+Processing Region R4 file part-00109-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (60/200)
+  Current total rows: 897862350
+Processing Region R4 file part-00063-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (61/200)
+  Current total rows: 898186696
+Processing Region R4 file part-00070-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (62/200)
+  Current total rows: 898514286
+Processing Region R4 file part-00043-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (63/200)
+  Current total rows: 898884365
+Processing Region R4 file part-00096-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (64/200)
+  Current total rows: 899219372
+Processing Region R4 file part-00079-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (65/200)
+  Current total rows: 899560691
+Processing Region R4 file part-00038-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (66/200)
+  Current total rows: 899873217
+Processing Region R4 file part-00004-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (67/200)
+  Current total rows: 900194058
+Processing Region R4 file part-00149-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (68/200)
+  Current total rows: 900529475
+Processing Region R4 file part-00090-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (69/200)
+  Current total rows: 900867740
+Processing Region R4 file part-00076-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (70/200)
+  Current total rows: 901223909
+Processing Region R4 file part-00147-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (71/200)
+  Current total rows: 901561623
+Processing Region R4 file part-00050-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (72/200)
+  Current total rows: 901896807
+Processing Region R4 file part-00126-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (73/200)
+  Current total rows: 902242296
+Processing Region R4 file part-00032-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (74/200)
+  Current total rows: 902583426
+Processing Region R4 file part-00197-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (75/200)
+  Current total rows: 902916282
+Processing Region R4 file part-00170-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (76/200)
+  Current total rows: 903200328
+Processing Region R4 file part-00091-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (77/200)
+  Current total rows: 903543034
+Processing Region R4 file part-00158-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (78/200)
+  Current total rows: 903858988
+Processing Region R4 file part-00103-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (79/200)
+  Current total rows: 904188322
+Processing Region R4 file part-00105-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (80/200)
+  Current total rows: 904554672
+Processing Region R4 file part-00153-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (81/200)
+  Current total rows: 904907445
+Processing Region R4 file part-00152-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (82/200)
+  Current total rows: 905233104
+Processing Region R4 file part-00030-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (83/200)
+  Current total rows: 905573951
+Processing Region R4 file part-00097-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (84/200)
+  Current total rows: 905899718
+Processing Region R4 file part-00013-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (85/200)
+  Current total rows: 906256513
+Processing Region R4 file part-00180-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (86/200)
+  Current total rows: 906588483
+Processing Region R4 file part-00136-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (87/200)
+  Current total rows: 906882945
+Processing Region R4 file part-00168-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (88/200)
+  Current total rows: 907189966
+Processing Region R4 file part-00191-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (89/200)
+  Current total rows: 907551910
+Processing Region R4 file part-00048-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (90/200)
+  Current total rows: 907863038
+Processing Region R4 file part-00186-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (91/200)
+  Current total rows: 908210247
+Processing Region R4 file part-00084-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (92/200)
+  Current total rows: 908549944
+Processing Region R4 file part-00193-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (93/200)
+  Current total rows: 908906337
+Processing Region R4 file part-00049-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (94/200)
+  Current total rows: 909240587
+Processing Region R4 file part-00122-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (95/200)
+  Current total rows: 909568199
+Processing Region R4 file part-00011-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (96/200)
+  Current total rows: 909940260
+Processing Region R4 file part-00018-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (97/200)
+  Current total rows: 910288762
+Processing Region R4 file part-00046-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (98/200)
+  Current total rows: 910615943
+Processing Region R4 file part-00010-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (99/200)
+  Current total rows: 910926339
+Processing Region R4 file part-00189-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (100/200)
+  Current total rows: 911316495
+Processing Region R4 file part-00107-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (101/200)
+  Current total rows: 911661383
+Processing Region R4 file part-00157-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (102/200)
+  Current total rows: 911974385
+Processing Region R4 file part-00073-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (103/200)
+  Current total rows: 912296971
+Processing Region R4 file part-00173-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (104/200)
+  Current total rows: 912624173
+Processing Region R4 file part-00124-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (105/200)
+  Current total rows: 912922790
+Processing Region R4 file part-00140-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (106/200)
+  Current total rows: 913264776
+Processing Region R4 file part-00059-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (107/200)
+  Current total rows: 913584149
+Processing Region R4 file part-00150-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (108/200)
+  Current total rows: 913934139
+Processing Region R4 file part-00062-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (109/200)
+  Current total rows: 914274839
+Processing Region R4 file part-00194-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (110/200)
+  Current total rows: 914594079
+Processing Region R4 file part-00178-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (111/200)
+  Current total rows: 914903874
+Processing Region R4 file part-00116-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (112/200)
+  Current total rows: 915249978
+Processing Region R4 file part-00135-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (113/200)
+  Current total rows: 915575410
+Processing Region R4 file part-00022-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (114/200)
+  Current total rows: 915913459
+Processing Region R4 file part-00132-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (115/200)
+  Current total rows: 916260683
+Processing Region R4 file part-00002-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (116/200)
+  Current total rows: 916586416
+Processing Region R4 file part-00118-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (117/200)
+  Current total rows: 916913996
+Processing Region R4 file part-00172-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (118/200)
+  Current total rows: 917213013
+Processing Region R4 file part-00000-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (119/200)
+  Current total rows: 917550055
+Processing Region R4 file part-00159-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (120/200)
+  Current total rows: 917877618
+Processing Region R4 file part-00041-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (121/200)
+  Current total rows: 918210495
+Processing Region R4 file part-00012-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (122/200)
+  Current total rows: 918535915
+Processing Region R4 file part-00182-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (123/200)
+  Current total rows: 918847936
+Processing Region R4 file part-00033-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (124/200)
+  Current total rows: 919186012
+Processing Region R4 file part-00052-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (125/200)
+  Current total rows: 919491189
+Processing Region R4 file part-00003-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (126/200)
+  Current total rows: 919812017
+Processing Region R4 file part-00145-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (127/200)
+  Current total rows: 920135250
+Processing Region R4 file part-00060-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (128/200)
+  Current total rows: 920462511
+Processing Region R4 file part-00025-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (129/200)
+  Current total rows: 920766915
+Processing Region R4 file part-00072-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (130/200)
+  Current total rows: 921078724
+Processing Region R4 file part-00083-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (131/200)
+  Current total rows: 921413774
+Processing Region R4 file part-00056-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (132/200)
+  Current total rows: 921743814
+Processing Region R4 file part-00143-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (133/200)
+  Current total rows: 922079513
+Processing Region R4 file part-00026-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (134/200)
+  Current total rows: 922411262
+Processing Region R4 file part-00101-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (135/200)
+  Current total rows: 922740382
+Processing Region R4 file part-00119-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (136/200)
+  Current total rows: 923060595
+Processing Region R4 file part-00125-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (137/200)
+  Current total rows: 923396094
+Processing Region R4 file part-00127-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (138/200)
+  Current total rows: 923722431
+Processing Region R4 file part-00162-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (139/200)
+  Current total rows: 924044277
+Processing Region R4 file part-00021-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (140/200)
+  Current total rows: 924359657
+Processing Region R4 file part-00121-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (141/200)
+  Current total rows: 924680799
+Processing Region R4 file part-00176-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (142/200)
+  Current total rows: 924996299
+Processing Region R4 file part-00100-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (143/200)
+  Current total rows: 925353355
+Processing Region R4 file part-00163-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (144/200)
+  Current total rows: 925655689
+Processing Region R4 file part-00156-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (145/200)
+  Current total rows: 925970828
+Processing Region R4 file part-00039-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (146/200)
+  Current total rows: 926320445
+Processing Region R4 file part-00067-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (147/200)
+  Current total rows: 926650131
+Processing Region R4 file part-00081-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (148/200)
+  Current total rows: 927007662
+Processing Region R4 file part-00199-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (149/200)
+  Current total rows: 927334194
+Processing Region R4 file part-00108-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (150/200)
+  Current total rows: 927669187
+Processing Region R4 file part-00113-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (151/200)
+  Current total rows: 928009459
+Processing Region R4 file part-00144-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (152/200)
+  Current total rows: 928341734
+Processing Region R4 file part-00192-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (153/200)
+  Current total rows: 928664850
+Processing Region R4 file part-00086-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (154/200)
+  Current total rows: 929000997
+Processing Region R4 file part-00099-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (155/200)
+  Current total rows: 929334876
+Processing Region R4 file part-00104-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (156/200)
+  Current total rows: 929682677
+Processing Region R4 file part-00142-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (157/200)
+  Current total rows: 930023951
+Processing Region R4 file part-00036-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (158/200)
+  Current total rows: 930380093
+Processing Region R4 file part-00167-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (159/200)
+  Current total rows: 930681429
+Processing Region R4 file part-00008-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (160/200)
+  Current total rows: 930985193
+Processing Region R4 file part-00061-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (161/200)
+  Current total rows: 931328015
+Processing Region R4 file part-00114-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (162/200)
+  Current total rows: 931664404
+Processing Region R4 file part-00019-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (163/200)
+  Current total rows: 932005487
+Processing Region R4 file part-00034-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (164/200)
+  Current total rows: 932350396
+Processing Region R4 file part-00044-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (165/200)
+  Current total rows: 932690635
+Processing Region R4 file part-00166-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (166/200)
+  Current total rows: 933044573
+Processing Region R4 file part-00024-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (167/200)
+  Current total rows: 933379392
+Processing Region R4 file part-00092-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (168/200)
+  Current total rows: 933736564
+Processing Region R4 file part-00037-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (169/200)
+  Current total rows: 934083726
+Processing Region R4 file part-00045-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (170/200)
+  Current total rows: 934395656
+Processing Region R4 file part-00051-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (171/200)
+  Current total rows: 934715654
+Processing Region R4 file part-00098-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (172/200)
+  Current total rows: 935044341
+Processing Region R4 file part-00164-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (173/200)
+  Current total rows: 935385832
+Processing Region R4 file part-00080-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (174/200)
+  Current total rows: 935715135
+Processing Region R4 file part-00190-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (175/200)
+  Current total rows: 936054579
+Processing Region R4 file part-00088-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (176/200)
+  Current total rows: 936389640
+Processing Region R4 file part-00165-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (177/200)
+  Current total rows: 936717356
+Processing Region R4 file part-00077-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (178/200)
+  Current total rows: 937026431
+Processing Region R4 file part-00087-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (179/200)
+  Current total rows: 937392282
+Processing Region R4 file part-00014-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (180/200)
+  Current total rows: 937715840
+Processing Region R4 file part-00009-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (181/200)
+  Current total rows: 938079450
+Processing Region R4 file part-00057-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (182/200)
+  Current total rows: 938404173
+Processing Region R4 file part-00155-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (183/200)
+  Current total rows: 938766271
+Processing Region R4 file part-00115-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (184/200)
+  Current total rows: 939111502
+Processing Region R4 file part-00001-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (185/200)
+  Current total rows: 939447143
+Processing Region R4 file part-00017-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (186/200)
+  Current total rows: 939804703
+Processing Region R4 file part-00053-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (187/200)
+  Current total rows: 940166666
+Processing Region R4 file part-00198-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (188/200)
+  Current total rows: 940490944
+Processing Region R4 file part-00071-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (189/200)
+  Current total rows: 940828597
+Processing Region R4 file part-00042-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (190/200)
+  Current total rows: 941157073
+Processing Region R4 file part-00154-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (191/200)
+  Current total rows: 941466028
+Processing Region R4 file part-00082-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (192/200)
+  Current total rows: 941811116
+Processing Region R4 file part-00131-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (193/200)
+  Current total rows: 942155807
+Processing Region R4 file part-00184-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (194/200)
+  Current total rows: 942465226
+Processing Region R4 file part-00146-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (195/200)
+  Current total rows: 942812734
+Processing Region R4 file part-00065-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (196/200)
+  Current total rows: 943184575
+Processing Region R4 file part-00130-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (197/200)
+  Current total rows: 943553968
+Processing Region R4 file part-00112-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (198/200)
+  Current total rows: 943858721
+Processing Region R4 file part-00148-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (199/200)
+  Current total rows: 944194285
+Processing Region R4 file part-00151-a1e44741-9939-48c5-ac97-74ac548b5a87-c000.csv (200/200)
+  Current total rows: 944522485
+Processing Region R5 file part-00050-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (1/200)
+  Current total rows: 944538778
+Processing Region R5 file part-00171-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (2/200)
+  Current total rows: 944555826
+Processing Region R5 file part-00005-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (3/200)
+  Current total rows: 944573373
+Processing Region R5 file part-00175-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (4/200)
+  Current total rows: 944592463
+Processing Region R5 file part-00192-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (5/200)
+  Current total rows: 944608964
+Processing Region R5 file part-00194-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (6/200)
+  Current total rows: 944627956
+Processing Region R5 file part-00002-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (7/200)
+  Current total rows: 944645959
+Processing Region R5 file part-00055-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (8/200)
+  Current total rows: 944666102
+Processing Region R5 file part-00096-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (9/200)
+  Current total rows: 944682878
+Processing Region R5 file part-00047-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (10/200)
+  Current total rows: 944698239
+Processing Region R5 file part-00150-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (11/200)
+  Current total rows: 944715549
+Processing Region R5 file part-00142-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (12/200)
+  Current total rows: 944732664
+Processing Region R5 file part-00089-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (13/200)
+  Current total rows: 944750138
+Processing Region R5 file part-00122-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (14/200)
+  Current total rows: 944766449
+Processing Region R5 file part-00098-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (15/200)
+  Current total rows: 944783205
+Processing Region R5 file part-00087-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (16/200)
+  Current total rows: 944801159
+Processing Region R5 file part-00013-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (17/200)
+  Current total rows: 944819194
+Processing Region R5 file part-00052-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (18/200)
+  Current total rows: 944837337
+Processing Region R5 file part-00174-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (19/200)
+  Current total rows: 944853700
+Processing Region R5 file part-00097-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (20/200)
+  Current total rows: 944871885
+Processing Region R5 file part-00060-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (21/200)
+  Current total rows: 944887444
+Processing Region R5 file part-00021-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (22/200)
+  Current total rows: 944904311
+Processing Region R5 file part-00028-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (23/200)
+  Current total rows: 944921465
+Processing Region R5 file part-00003-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (24/200)
+  Current total rows: 944938536
+Processing Region R5 file part-00123-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (25/200)
+  Current total rows: 944955300
+Processing Region R5 file part-00176-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (26/200)
+  Current total rows: 944973884
+Processing Region R5 file part-00109-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (27/200)
+  Current total rows: 944990366
+Processing Region R5 file part-00066-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (28/200)
+  Current total rows: 945008154
+Processing Region R5 file part-00062-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (29/200)
+  Current total rows: 945025207
+Processing Region R5 file part-00023-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (30/200)
+  Current total rows: 945041875
+Processing Region R5 file part-00041-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (31/200)
+  Current total rows: 945059057
+Processing Region R5 file part-00183-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (32/200)
+  Current total rows: 945078288
+Processing Region R5 file part-00165-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (33/200)
+  Current total rows: 945094692
+Processing Region R5 file part-00141-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (34/200)
+  Current total rows: 945110091
+Processing Region R5 file part-00099-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (35/200)
+  Current total rows: 945128079
+Processing Region R5 file part-00193-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (36/200)
+  Current total rows: 945143647
+Processing Region R5 file part-00026-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (37/200)
+  Current total rows: 945160370
+Processing Region R5 file part-00009-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (38/200)
+  Current total rows: 945178118
+Processing Region R5 file part-00051-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (39/200)
+  Current total rows: 945196113
+Processing Region R5 file part-00064-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (40/200)
+  Current total rows: 945213525
+Processing Region R5 file part-00104-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (41/200)
+  Current total rows: 945230456
+Processing Region R5 file part-00083-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (42/200)
+  Current total rows: 945248557
+Processing Region R5 file part-00100-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (43/200)
+  Current total rows: 945264418
+Processing Region R5 file part-00136-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (44/200)
+  Current total rows: 945282410
+Processing Region R5 file part-00102-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (45/200)
+  Current total rows: 945298837
+Processing Region R5 file part-00073-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (46/200)
+  Current total rows: 945316679
+Processing Region R5 file part-00117-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (47/200)
+  Current total rows: 945333055
+Processing Region R5 file part-00053-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (48/200)
+  Current total rows: 945350831
+Processing Region R5 file part-00107-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (49/200)
+  Current total rows: 945368394
+Processing Region R5 file part-00149-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (50/200)
+  Current total rows: 945386530
+Processing Region R5 file part-00166-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (51/200)
+  Current total rows: 945402625
+Processing Region R5 file part-00088-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (52/200)
+  Current total rows: 945419781
+Processing Region R5 file part-00068-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (53/200)
+  Current total rows: 945437783
+Processing Region R5 file part-00112-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (54/200)
+  Current total rows: 945454895
+Processing Region R5 file part-00059-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (55/200)
+  Current total rows: 945471928
+Processing Region R5 file part-00191-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (56/200)
+  Current total rows: 945490040
+Processing Region R5 file part-00043-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (57/200)
+  Current total rows: 945507857
+Processing Region R5 file part-00179-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (58/200)
+  Current total rows: 945525213
+Processing Region R5 file part-00197-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (59/200)
+  Current total rows: 945542045
+Processing Region R5 file part-00108-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (60/200)
+  Current total rows: 945558262
+Processing Region R5 file part-00143-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (61/200)
+  Current total rows: 945575769
+Processing Region R5 file part-00169-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (62/200)
+  Current total rows: 945592935
+Processing Region R5 file part-00115-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (63/200)
+  Current total rows: 945609088
+Processing Region R5 file part-00067-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (64/200)
+  Current total rows: 945625443
+Processing Region R5 file part-00163-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (65/200)
+  Current total rows: 945640922
+Processing Region R5 file part-00119-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (66/200)
+  Current total rows: 945659522
+Processing Region R5 file part-00139-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (67/200)
+  Current total rows: 945678416
+Processing Region R5 file part-00155-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (68/200)
+  Current total rows: 945694741
+Processing Region R5 file part-00039-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (69/200)
+  Current total rows: 945712983
+Processing Region R5 file part-00196-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (70/200)
+  Current total rows: 945730739
+Processing Region R5 file part-00158-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (71/200)
+  Current total rows: 945748296
+Processing Region R5 file part-00035-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (72/200)
+  Current total rows: 945765305
+Processing Region R5 file part-00010-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (73/200)
+  Current total rows: 945782684
+Processing Region R5 file part-00095-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (74/200)
+  Current total rows: 945801404
+Processing Region R5 file part-00148-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (75/200)
+  Current total rows: 945817792
+Processing Region R5 file part-00151-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (76/200)
+  Current total rows: 945835432
+Processing Region R5 file part-00118-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (77/200)
+  Current total rows: 945854958
+Processing Region R5 file part-00164-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (78/200)
+  Current total rows: 945873252
+Processing Region R5 file part-00094-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (79/200)
+  Current total rows: 945890427
+Processing Region R5 file part-00182-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (80/200)
+  Current total rows: 945909338
+Processing Region R5 file part-00042-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (81/200)
+  Current total rows: 945927424
+Processing Region R5 file part-00156-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (82/200)
+  Current total rows: 945944878
+Processing Region R5 file part-00014-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (83/200)
+  Current total rows: 945961862
+Processing Region R5 file part-00034-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (84/200)
+  Current total rows: 945979943
+Processing Region R5 file part-00137-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (85/200)
+  Current total rows: 945996251
+Processing Region R5 file part-00190-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (86/200)
+  Current total rows: 946015300
+Processing Region R5 file part-00085-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (87/200)
+  Current total rows: 946033769
+Processing Region R5 file part-00084-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (88/200)
+  Current total rows: 946052753
+Processing Region R5 file part-00178-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (89/200)
+  Current total rows: 946071308
+Processing Region R5 file part-00040-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (90/200)
+  Current total rows: 946089060
+Processing Region R5 file part-00061-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (91/200)
+  Current total rows: 946105284
+Processing Region R5 file part-00054-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (92/200)
+  Current total rows: 946123475
+Processing Region R5 file part-00077-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (93/200)
+  Current total rows: 946140880
+Processing Region R5 file part-00072-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (94/200)
+  Current total rows: 946157793
+Processing Region R5 file part-00063-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (95/200)
+  Current total rows: 946174558
+Processing Region R5 file part-00012-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (96/200)
+  Current total rows: 946191701
+Processing Region R5 file part-00015-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (97/200)
+  Current total rows: 946210283
+Processing Region R5 file part-00032-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (98/200)
+  Current total rows: 946227274
+Processing Region R5 file part-00027-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (99/200)
+  Current total rows: 946244133
+Processing Region R5 file part-00187-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (100/200)
+  Current total rows: 946259476
+Processing Region R5 file part-00045-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (101/200)
+  Current total rows: 946278041
+Processing Region R5 file part-00132-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (102/200)
+  Current total rows: 946294841
+Processing Region R5 file part-00180-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (103/200)
+  Current total rows: 946311679
+Processing Region R5 file part-00131-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (104/200)
+  Current total rows: 946328486
+Processing Region R5 file part-00080-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (105/200)
+  Current total rows: 946346193
+Processing Region R5 file part-00024-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (106/200)
+  Current total rows: 946364134
+Processing Region R5 file part-00126-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (107/200)
+  Current total rows: 946381828
+Processing Region R5 file part-00090-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (108/200)
+  Current total rows: 946398191
+Processing Region R5 file part-00036-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (109/200)
+  Current total rows: 946413034
+Processing Region R5 file part-00007-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (110/200)
+  Current total rows: 946430793
+Processing Region R5 file part-00121-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (111/200)
+  Current total rows: 946448918
+Processing Region R5 file part-00008-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (112/200)
+  Current total rows: 946464080
+Processing Region R5 file part-00127-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (113/200)
+  Current total rows: 946479805
+Processing Region R5 file part-00188-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (114/200)
+  Current total rows: 946497301
+Processing Region R5 file part-00106-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (115/200)
+  Current total rows: 946513237
+Processing Region R5 file part-00167-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (116/200)
+  Current total rows: 946531704
+Processing Region R5 file part-00031-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (117/200)
+  Current total rows: 946548173
+Processing Region R5 file part-00086-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (118/200)
+  Current total rows: 946565329
+Processing Region R5 file part-00025-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (119/200)
+  Current total rows: 946582194
+Processing Region R5 file part-00138-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (120/200)
+  Current total rows: 946598454
+Processing Region R5 file part-00016-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (121/200)
+  Current total rows: 946617232
+Processing Region R5 file part-00049-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (122/200)
+  Current total rows: 946633742
+Processing Region R5 file part-00181-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (123/200)
+  Current total rows: 946651369
+Processing Region R5 file part-00172-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (124/200)
+  Current total rows: 946668295
+Processing Region R5 file part-00069-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (125/200)
+  Current total rows: 946687003
+Processing Region R5 file part-00160-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (126/200)
+  Current total rows: 946704171
+Processing Region R5 file part-00144-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (127/200)
+  Current total rows: 946722079
+Processing Region R5 file part-00022-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (128/200)
+  Current total rows: 946739975
+Processing Region R5 file part-00162-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (129/200)
+  Current total rows: 946756962
+Processing Region R5 file part-00111-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (130/200)
+  Current total rows: 946774308
+Processing Region R5 file part-00116-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (131/200)
+  Current total rows: 946790491
+Processing Region R5 file part-00168-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (132/200)
+  Current total rows: 946808597
+Processing Region R5 file part-00128-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (133/200)
+  Current total rows: 946823896
+Processing Region R5 file part-00161-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (134/200)
+  Current total rows: 946842550
+Processing Region R5 file part-00044-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (135/200)
+  Current total rows: 946858359
+Processing Region R5 file part-00091-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (136/200)
+  Current total rows: 946875773
+Processing Region R5 file part-00078-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (137/200)
+  Current total rows: 946892526
+Processing Region R5 file part-00189-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (138/200)
+  Current total rows: 946909934
+Processing Region R5 file part-00185-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (139/200)
+  Current total rows: 946927221
+Processing Region R5 file part-00157-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (140/200)
+  Current total rows: 946942576
+Processing Region R5 file part-00134-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (141/200)
+  Current total rows: 946960134
+Processing Region R5 file part-00011-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (142/200)
+  Current total rows: 946976134
+Processing Region R5 file part-00113-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (143/200)
+  Current total rows: 946993778
+Processing Region R5 file part-00198-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (144/200)
+  Current total rows: 947010757
+Processing Region R5 file part-00101-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (145/200)
+  Current total rows: 947027381
+Processing Region R5 file part-00071-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (146/200)
+  Current total rows: 947045101
+Processing Region R5 file part-00124-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (147/200)
+  Current total rows: 947063901
+Processing Region R5 file part-00154-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (148/200)
+  Current total rows: 947080238
+Processing Region R5 file part-00199-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (149/200)
+  Current total rows: 947096400
+Processing Region R5 file part-00177-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (150/200)
+  Current total rows: 947113699
+Processing Region R5 file part-00129-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (151/200)
+  Current total rows: 947129836
+Processing Region R5 file part-00019-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (152/200)
+  Current total rows: 947147760
+Processing Region R5 file part-00048-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (153/200)
+  Current total rows: 947163739
+Processing Region R5 file part-00006-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (154/200)
+  Current total rows: 947179603
+Processing Region R5 file part-00074-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (155/200)
+  Current total rows: 947196979
+Processing Region R5 file part-00173-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (156/200)
+  Current total rows: 947215757
+Processing Region R5 file part-00030-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (157/200)
+  Current total rows: 947232245
+Processing Region R5 file part-00038-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (158/200)
+  Current total rows: 947247802
+Processing Region R5 file part-00065-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (159/200)
+  Current total rows: 947265386
+Processing Region R5 file part-00075-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (160/200)
+  Current total rows: 947282222
+Processing Region R5 file part-00020-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (161/200)
+  Current total rows: 947301142
+Processing Region R5 file part-00093-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (162/200)
+  Current total rows: 947317807
+Processing Region R5 file part-00130-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (163/200)
+  Current total rows: 947335447
+Processing Region R5 file part-00037-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (164/200)
+  Current total rows: 947351891
+Processing Region R5 file part-00146-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (165/200)
+  Current total rows: 947368290
+Processing Region R5 file part-00140-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (166/200)
+  Current total rows: 947384165
+Processing Region R5 file part-00000-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (167/200)
+  Current total rows: 947400318
+Processing Region R5 file part-00147-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (168/200)
+  Current total rows: 947416897
+Processing Region R5 file part-00195-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (169/200)
+  Current total rows: 947434158
+Processing Region R5 file part-00159-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (170/200)
+  Current total rows: 947451658
+Processing Region R5 file part-00103-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (171/200)
+  Current total rows: 947470220
+Processing Region R5 file part-00152-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (172/200)
+  Current total rows: 947489172
+Processing Region R5 file part-00145-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (173/200)
+  Current total rows: 947506279
+Processing Region R5 file part-00186-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (174/200)
+  Current total rows: 947525040
+Processing Region R5 file part-00170-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (175/200)
+  Current total rows: 947542617
+Processing Region R5 file part-00105-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (176/200)
+  Current total rows: 947559544
+Processing Region R5 file part-00018-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (177/200)
+  Current total rows: 947576217
+Processing Region R5 file part-00092-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (178/200)
+  Current total rows: 947592980
+Processing Region R5 file part-00057-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (179/200)
+  Current total rows: 947609607
+Processing Region R5 file part-00125-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (180/200)
+  Current total rows: 947626864
+Processing Region R5 file part-00114-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (181/200)
+  Current total rows: 947642912
+Processing Region R5 file part-00001-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (182/200)
+  Current total rows: 947660602
+Processing Region R5 file part-00076-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (183/200)
+  Current total rows: 947676856
+Processing Region R5 file part-00120-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (184/200)
+  Current total rows: 947694420
+Processing Region R5 file part-00004-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (185/200)
+  Current total rows: 947711411
+Processing Region R5 file part-00110-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (186/200)
+  Current total rows: 947728417
+Processing Region R5 file part-00133-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (187/200)
+  Current total rows: 947744072
+Processing Region R5 file part-00058-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (188/200)
+  Current total rows: 947758602
+Processing Region R5 file part-00070-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (189/200)
+  Current total rows: 947777054
+Processing Region R5 file part-00033-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (190/200)
+  Current total rows: 947794217
+Processing Region R5 file part-00081-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (191/200)
+  Current total rows: 947812318
+Processing Region R5 file part-00056-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (192/200)
+  Current total rows: 947829095
+Processing Region R5 file part-00153-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (193/200)
+  Current total rows: 947846282
+Processing Region R5 file part-00184-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (194/200)
+  Current total rows: 947867483
+Processing Region R5 file part-00079-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (195/200)
+  Current total rows: 947884858
+Processing Region R5 file part-00135-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (196/200)
+  Current total rows: 947903875
+Processing Region R5 file part-00029-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (197/200)
+  Current total rows: 947921291
+Processing Region R5 file part-00082-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (198/200)
+  Current total rows: 947936760
+Processing Region R5 file part-00046-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (199/200)
+  Current total rows: 947953793
+Processing Region R5 file part-00017-7553bf50-4dbd-4c65-84df-39bf88b4f156-c000.csv (200/200)
+  Current total rows: 947970744
+Combining all data...
+Saving processed data...
+Processed data saved to /data/huawei_traces/public_request_tables/huawei_25_traces_request_usage_rt.pkl
+[?2004h(venv) [01;32mubuntu@server1[00m:[01;34m~/demystifying-serverless-costs-artifact/dataset[00m$ 

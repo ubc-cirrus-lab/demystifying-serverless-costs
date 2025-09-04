@@ -1,0 +1,115 @@
+TimeSeries ID,telemetry-explorer-0-0,telemetry-explorer-0-1,telemetry-explorer-0-2,telemetry-explorer-0-3
+metric.state,active,idle,active,idle
+resource.project_id,compute-241322,compute-241322,compute-241322,compute-241322
+resource.service_name,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1
+resource.revision_name,pyaes-serving-model-test-1-00005-qjn,pyaes-serving-model-test-1-00005-qjn,pyaes-serving-model-test-1-00004-2gb,pyaes-serving-model-test-1-00004-2gb
+resource.location,northamerica-northeast2,northamerica-northeast2,northamerica-northeast2,northamerica-northeast2
+resource.configuration_name,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1
+resource.project_id,compute-241322,compute-241322,compute-241322,compute-241322
+resource.service_name,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1
+resource.revision_name,pyaes-serving-model-test-1-00005-qjn,pyaes-serving-model-test-1-00005-qjn,pyaes-serving-model-test-1-00004-2gb,pyaes-serving-model-test-1-00004-2gb
+resource.location,northamerica-northeast2,northamerica-northeast2,northamerica-northeast2,northamerica-northeast2
+resource.configuration_name,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1,pyaes-serving-model-test-1
+metric.state,active,idle,active,idle
+Mon May 12 2025 16:41:00 GMT-0700 (Pacific Daylight Time),1,0,0,1
+Mon May 12 2025 16:41:10 GMT-0700 (Pacific Daylight Time),1,0,0,1
+Mon May 12 2025 16:41:20 GMT-0700 (Pacific Daylight Time),1,0,0,1
+Mon May 12 2025 16:41:30 GMT-0700 (Pacific Daylight Time),1,0,0,1
+Mon May 12 2025 16:41:40 GMT-0700 (Pacific Daylight Time),1,0,0,1
+Mon May 12 2025 16:41:50 GMT-0700 (Pacific Daylight Time),1,0,0,1
+Mon May 12 2025 16:42:00 GMT-0700 (Pacific Daylight Time),3,0,0,0
+Mon May 12 2025 16:42:10 GMT-0700 (Pacific Daylight Time),3,0,0,0
+Mon May 12 2025 16:42:20 GMT-0700 (Pacific Daylight Time),3,0,0,0
+Mon May 12 2025 16:42:30 GMT-0700 (Pacific Daylight Time),3,0,0,0
+Mon May 12 2025 16:42:40 GMT-0700 (Pacific Daylight Time),3,0,0,0
+Mon May 12 2025 16:42:50 GMT-0700 (Pacific Daylight Time),3,0,0,0
+Mon May 12 2025 16:43:00 GMT-0700 (Pacific Daylight Time),12,0,0,0
+Mon May 12 2025 16:43:10 GMT-0700 (Pacific Daylight Time),12,0,0,0
+Mon May 12 2025 16:43:20 GMT-0700 (Pacific Daylight Time),12,0,0,0
+Mon May 12 2025 16:43:30 GMT-0700 (Pacific Daylight Time),12,0,0,0
+Mon May 12 2025 16:43:40 GMT-0700 (Pacific Daylight Time),12,0,0,0
+Mon May 12 2025 16:43:50 GMT-0700 (Pacific Daylight Time),12,0,0,0
+Mon May 12 2025 16:44:00 GMT-0700 (Pacific Daylight Time),5,5,0,0
+Mon May 12 2025 16:44:10 GMT-0700 (Pacific Daylight Time),5,5,0,0
+Mon May 12 2025 16:44:20 GMT-0700 (Pacific Daylight Time),5,5,0,0
+Mon May 12 2025 16:44:30 GMT-0700 (Pacific Daylight Time),5,5,0,0
+Mon May 12 2025 16:44:40 GMT-0700 (Pacific Daylight Time),5,5,0,0
+Mon May 12 2025 16:44:50 GMT-0700 (Pacific Daylight Time),5,5,0,0
+Mon May 12 2025 16:45:00 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:45:10 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:45:20 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:45:30 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:45:40 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:45:50 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:46:00 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:46:10 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:46:20 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:46:30 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:46:40 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:46:50 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:47:00 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:47:10 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:47:20 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:47:30 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:47:40 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:47:50 GMT-0700 (Pacific Daylight Time),4,6,0,0
+Mon May 12 2025 16:48:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:48:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:48:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:48:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:48:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:48:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:49:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:49:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:49:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:49:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:49:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:49:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:50:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:50:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:50:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:50:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:50:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:50:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:51:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:51:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:51:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:51:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:51:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:51:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:52:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:52:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:52:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:52:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:52:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:52:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:53:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:53:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:53:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:53:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:53:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:53:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:54:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:54:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:54:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:54:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:54:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:54:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:55:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:55:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:55:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:55:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:55:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:55:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:56:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:56:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:56:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:56:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:56:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:56:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:57:00 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:57:10 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:57:20 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:57:30 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:57:40 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
+Mon May 12 2025 16:57:50 GMT-0700 (Pacific Daylight Time),4,6,undefined,undefined
