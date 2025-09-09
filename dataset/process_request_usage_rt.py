@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import sys
 
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -18,6 +19,16 @@ REGIONS = ['R1', 'R2', 'R3', 'R4', 'R5']
 # TRACE_DATA_DIR/R2/*.csv
 # ...
 
+# If exactly one CLI arg is provided and it matches a known region, override
+SUFFIX = ""
+if len(sys.argv) == 2:
+    if sys.argv[1] in REGIONS:
+        REGIONS = [sys.argv[1]]
+        SUFFIX = f"_{sys.argv[1]}"
+        print(f"Processing only region {sys.argv[1]}")
+    else:
+        print(f"Unknown region {sys.argv[1]}, processing all regions")
+print("Regions to process:", REGIONS)
 
 SELECTED_COLUMNS = [
     'podID',
@@ -49,11 +60,11 @@ data = pd.concat(all_data, ignore_index=True)
 
 print("Saving processed data...")
 
-output_path = os.path.join(TRACE_DATA_DIR, 'huawei_25_traces_request_usage_rt.pkl')
+output_path = os.path.join(TRACE_DATA_DIR, f'huawei_25_traces_request_usage_rt.pkl')
 data.to_pickle(output_path)
 
 print(f"Processed data saved to {output_path}")
 
-with open(os.path.join(CURRENT_DIR, "huawei_25_traces_request_usage_rt.log"), "w") as log_file:
+with open(os.path.join(CURRENT_DIR, f"huawei_25_traces_request_usage_rt.log"), "w") as log_file:
     log_file.write(f"Total rows: {total_rows}\n")
     log_file.write(f"Final combined data shape: {data.shape}\n")

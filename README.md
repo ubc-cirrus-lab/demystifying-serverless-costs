@@ -42,14 +42,37 @@ sh prepare_data.sh
 ```
 *Note: Processing time varies based on system specifications.*
 
-5. Explore individual analysis notebooks in their respective directories.
-
-6. Alternatively, execute the all-in-one script to reproduce all results:
+5. Execute the all-in-one script to reproduce all results:
 ```
 sh all_in_one_script.sh
 ```
 
-### Viewing Results
-Individual notebooks: Results and figures are generated within their respective analysis directories (`figures`) and displayed inline in the self-explanatory notebooks.
+6. Alternatively, explore individual analysis notebooks in their respective directories.
 
-All-in-one script: Figures are saved to their respective analysis directories (`figures`), while numerical results are printed to standard output.
+### Estimated Execution Time
+Based on testing with a server with the AMD Epyc 7642 processor, 256GB RAM, HDD storage, and 1 Gigabit Ethernet connection:
+* Download the Huawei serverless traces (public request tables and public cold starts): ~90 minutes
+* Data processing and preparation: ~400 minutes
+* Analysis execution: ~90 minutes
+  * Billable resources: ~25 minutes
+  * Utilization rates: ~30 minutes
+  * Billable differences: ~30 minutes
+  * Serving architecture analysis: ~2 minutes
+  * OS scheduling analysis: ~3 minutes
+
+The total estimated runtime is around 9.5 hours for complete reproduction from raw data to final results. Actual runtime will vary based on your system's processor, storage type, and network bandwidth.
+
+### Viewing Results
+Individual notebooks: Results and figures are generated within their respective analysis directories (e.g., [`/billing/figures`](./billing/figures)) and displayed inline in the self-explanatory notebooks.
+
+All-in-one script: Figures are saved to their respective analysis directories (e.g., [`/billing/figures`](./billing/figures)), while numerical results are printed to standard output.
+
+### Small Test Script (Optional)
+For quick validation of the artifact functionality, a small test script is provided in [`small_test.sh`](./small_test.sh). This test script automatically downloads a subset of traces, processes the data, and executes all analysis codes. It can run on commodity hardware (e.g., regular desktops/laptops) and complete in approximately 10 minutes. 
+
+Run the all-in-one script for the small test:
+```
+sh small_test.sh
+```
+
+Please note that this small test is intended solely for quick verification of the artifact functionality and uses only a very limited subset of the full dataset, so the results will differ from those presented in the paper, which are based on complete dataset analysis.
