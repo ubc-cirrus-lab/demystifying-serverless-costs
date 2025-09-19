@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1046588619.svg)](https://doi.org/10.5281/zenodo.17162822)
 # Demystifying Serverless Costs
 This repository contains the artifacts for EuroSys '26 Paper: "Demystifying Serverless Costs on Public Platforms: Bridging Billing, Architecture, and OS Scheduling."
 This repository provides the data and figures presented in the paper and notebooks, scripts, and datasets to reproduce the results.
